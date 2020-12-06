@@ -1,0 +1,34 @@
+const path = require('path');
+
+module.exports = {
+	entry: './app/index.js',
+	mode: 'development',
+	devtool: 'inline-source-map',
+	devServer: {
+		contentBase: path.join(__dirname, 'public'),
+		port: 8000,
+	},
+	module: {
+		rules: [
+			{
+				test: /\.jsx?$/,
+				exclude: /node_modules/,
+				use: {
+					loader: 'babel-loader',
+				},
+			},
+			{
+				test: /\.(png|jpe?g|gif)$/i,
+				use: [
+					{
+						loader: 'file-loader',
+					},
+				],
+			},
+		],
+	},
+	output: {
+		path: path.join(__dirname, 'public'),
+		filename: 'bundle.js',
+	},
+};

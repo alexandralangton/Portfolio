@@ -1,0 +1,53 @@
+
+/* GENERIC */
+
+body {
+    background-color: #17255a;
+    color: antiquewhite;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    margin-bottom: 50rem;
+}
+
+@media all and (min-width: 1300px) {
+    main {
+        margin: 0% 20%;
+    }
+}
+
+.flex {
+    display: inline-flex;
+    align-content: center;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+/* ABOUT  */
+
+h1 {
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.75rem;
+    font-size: 2.5rem;
+    margin-right: 5vw;
+    margin-bottom: 7vh;
+}
+
+#profile-pic {
+    max-width: 35%;
+    margin-left: 5vw;
+    border-radius: 1%;
+}
+
+#bio {
+    margin: 0 3vw;
+    /* background-color: rgba(250, 235, 215, 0.9);
+    color: #17255a; */
+}
+
