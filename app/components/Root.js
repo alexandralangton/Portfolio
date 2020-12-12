@@ -5,9 +5,7 @@ import al from '../../public/al.jpeg';
 const Root = () => {
 	return (
 		<main>
-			<nav>
-				<Navbar />
-			</nav>
+			<Navbar />
 			<header>
 				<h1>ALEXANDRA LANGTON</h1>
 			</header>
@@ -24,14 +22,15 @@ const Root = () => {
 							in New York City.
 						</h3>
 						<p>
-							After studing languages at university I worked for several years
+							After studying languages at university I worked for several years
 							as a project manager, working on international adaptations and
-							rollouts of multi-lingual marketing campaigns, most recently
+							rollouts of multi-lingual marketing campaigns&mdash;most recently
 							including a series of HTML and JavaScript-based eLearning courses.
 							As I worked with engineers on these adaptations, I came to the
 							conclusion I wanted to work on this type of project in a more
 							hands on way, and dedicate my attention to detail and creative
-							flair to personally building great content in code.
+							problem-solving skills to personally building great content in
+							code.
 							<br />
 							<br />
 							To that end, I started teaching myself to code, and recently

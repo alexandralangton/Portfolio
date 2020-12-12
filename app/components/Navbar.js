@@ -1,21 +1,24 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 	return (
-		<ul>
-			<li>
-				<a href="#about">ABOUT</a>
-			</li>
-			<li>
-				<a href="#projects">PROJECTS</a>
-			</li>
-			<li>
-				<a href="#experience">EXPERIENCE</a>
-			</li>
-			<li>
-				<a href="#contact">ABOUT</a>
-			</li>
-		</ul>
+		<nav>
+			<ul>
+				<Link to="bio" smooth={true} spy={true} activeClass="active">
+					<li>ABOUT</li>
+				</Link>
+				<Link to="projects" smooth={true} spy={true} activeClass="active">
+					<li>PROJECTS</li>
+				</Link>
+				<Link to="experience" smooth={true} spy={true} activeClass="active">
+					<li>EXPERIENCE</li>
+				</Link>
+				<Link to="contact" smooth={true} spy={true} activeClass="active">
+					<li>CONTACT</li>
+				</Link>
+			</ul>
+		</nav>
 	);
 };
 

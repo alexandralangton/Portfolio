@@ -4,8 +4,7 @@
   "description": "A virtual resume of my projects and roles",
   "main": "app/index.js",
   "scripts": {
-    "start-dev": "webpack -w",
-    "start": "webpack serve & webpack -w",
+    "start-dev": "webpack -w & webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandra Langton",
@@ -24,6 +23,7 @@
     "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.1"
   }
 }
