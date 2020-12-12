@@ -1,31 +1,52 @@
 
 /* GENERIC */
 
-body {
-    background-color: #17255a;
-    color: #FEFDFF;
-    scroll-behavior: smooth;
+html, body {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
     font-family: 'Montserrat', sans-serif;
 }
 
 section {
-    margin-bottom: 50rem;
+    margin-bottom: 5rem;
 }
 
-main {
-    margin: 0% 5%;
+.blue {
+    background-color: #17255a;
+    color: #FEFDFF;
+    width: 100%;
+}
+
+/* main {
+    padding: 0% 5%;
 }
 
 @media all and (min-width: 1350px) {
     main {
-        margin: 0% 15%;
+        padding: 0% 15%;
     }
-}
+} */
 
 .flex {
     display: inline-flex;
     align-content: center;
 }
+
+p, h3 {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+h2 {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 
 /* NAVBAR */
 
@@ -33,7 +54,8 @@ li {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.1rem;
     list-style: none;
-    cursor: default;
+    cursor: pointer;
+    color: #FEFDFF;
 }
 
 ul {
@@ -50,7 +72,7 @@ nav {
     background-color: #17255a;
     z-index: 1;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 0;
 }
@@ -72,7 +94,6 @@ h1 {
 }
 
 #profile-pic {
-    max-width: 45%;
     height: auto;
     max-height: 35rem;
     margin-left: 5vw;
@@ -84,3 +105,52 @@ h1 {
     line-height: 1.5;
 }
 
+#about {
+    background-color: #FEFDFF;
+    color: #17255a;
+}
+
+
+/* PROJECTS */
+
+#project-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-img {
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+
+/* CONTACT  */
+
+.middle {
+    width: 100vw;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#contact-blurb {
+    width: 60vw;
+}
+
+#contact-links {
+    height: 100%;
+    align-self: center;
+}
+
+.logo {
+    max-width: 2.5rem;
+    align-self: center;
+    margin-right: 1.5rem;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 0.5rem 0rem;
+}

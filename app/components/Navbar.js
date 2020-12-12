@@ -5,7 +5,7 @@ const Navbar = () => {
 	return (
 		<nav>
 			<ul>
-				<Link to="bio" smooth={true} spy={true} activeClass="active">
+				<Link to="about" smooth={true} spy={true} activeClass="active">
 					<li>ABOUT</li>
 				</Link>
 				<Link to="projects" smooth={true} spy={true} activeClass="active">
@@ -14,7 +14,7 @@ const Navbar = () => {
 				<Link to="experience" smooth={true} spy={true} activeClass="active">
 					<li>EXPERIENCE</li>
 				</Link>
-				<Link to="contact" smooth={true} spy={true} activeClass="active">
+				<Link to="hello" smooth={true} spy={true} activeClass="active">
 					<li>CONTACT</li>
 				</Link>
 			</ul>
