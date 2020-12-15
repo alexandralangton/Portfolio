@@ -16,7 +16,7 @@ const Root = () => {
 				</section>
 				<Contact />
 			</main>
-			<footer className="blue">
+			<footer>
 				<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
 			</footer>
 		</>

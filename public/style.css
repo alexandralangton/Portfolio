@@ -6,30 +6,30 @@ html, body {
     padding: 0;
     overscroll-behavior: none;
     font-family: 'Montserrat', sans-serif;
+    color: #17255a;
+    background-color: #FEFDFF;
 }
 
-section {
-    margin-bottom: 5rem;
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .blue {
     background-color: #17255a;
     color: #FEFDFF;
     width: 100%;
+    padding-top: 0.83rem;
 }
 
-/* main {
-    padding: 0% 5%;
+a {
+    text-decoration: none;
 }
-
-@media all and (min-width: 1350px) {
-    main {
-        padding: 0% 15%;
-    }
-} */
 
 .flex {
-    display: inline-flex;
+    display: flex;
     align-content: center;
 }
 
@@ -39,7 +39,6 @@ p, h3 {
 }
 
 h2 {
-    padding-top: 1.5rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
@@ -65,7 +64,7 @@ ul {
 }
 
 .active, li:hover {
-    color: #ff6700;
+    color: #ff5400;
 }
 
 nav {
@@ -97,6 +96,7 @@ h1 {
     height: auto;
     max-height: 35rem;
     margin-left: 5vw;
+    margin-bottom: 5vw;
     border-radius: 1%;
 }
 
@@ -108,22 +108,58 @@ h1 {
 #about {
     background-color: #FEFDFF;
     color: #17255a;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.me {
+    max-width: 70rem;
 }
 
 
 /* PROJECTS */
 
-#project-flex {
+.project {
+    padding: 3vw 5vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .project-img {
-    max-width: 30vw;
-    max-height: 30vh;
+    max-width: 25rem;
+    margin-right: 2rem;
 }
 
+.project-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.25rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.project-text {
+    max-width: 30rem;
+}
+
+.project-link {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.15rem;
+    color: #FEFDFF;
+    margin: 0vw 4vw;
+}
+
+.project-flex {
+    display: flex;
+    justify-content: center;
+}
+
+span:hover {
+    color: #ff5400;
+}
 
 /* CONTACT  */
 
@@ -134,7 +170,8 @@ h1 {
 }
 
 #contact-blurb {
-    width: 60vw;
+    width: 50vw;
+    margin-right: 5vw;
 }
 
 #contact-links {
@@ -152,5 +189,9 @@ h1 {
 
 footer {
     text-align: center;
-    padding: 0.5rem 0rem;
+    padding: 0.25rem 0rem;
+}
+
+#hello {
+    padding-bottom: 2rem;
 }

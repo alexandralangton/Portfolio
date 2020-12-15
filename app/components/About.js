@@ -2,12 +2,15 @@ import React from 'react';
 import al from '../images/al.jpeg';
 
 const About = () => {
+	console.log(
+		`Hello! If you're looking for a software developer, please feel free to reach out! My email is alexandra.langton@outlook.com. Thanks!`
+	);
 	return (
 		<section id="about">
 			<header>
 				<h1>ALEXANDRA LANGTON</h1>
 			</header>
-			<div className="flex">
+			<div className="flex me">
 				<img
 					src={al}
 					alt="A picture of Alexandra Langton in Seattle"

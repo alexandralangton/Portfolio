@@ -17,8 +17,9 @@ const Contact = () => {
 			<div className="flex middle">
 				<div id="contact-blurb">
 					<p>
-						Like what you see? Say hello! <br /> I'm available for full time
-						roles, as well as freelance projects and collaborations.
+						Like what you see? Say hello! <br />
+						I'm available for full time positions, as well as freelance
+						projects.
 					</p>
 				</div>
 				<div id="contact-links">
