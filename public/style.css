@@ -76,6 +76,39 @@ nav {
     left: 0;
 }
 
+/* COVER */
+
+#about-container {
+    max-height: 100vh;
+}
+
+#cover-pic {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    max-height: 100vh;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #FEFDFF;
+}
+
+.name {
+    top: 25vh;
+}
+
+.subheader {
+    top: 33vh;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.25rem;
+}
+
+
 
 /* ABOUT  */
 
@@ -157,9 +190,9 @@ h1 {
     justify-content: center;
 }
 
-span:hover {
+/* span:hover {
     color: #ff5400;
-}
+} */
 
 /* CONTACT  */
 
