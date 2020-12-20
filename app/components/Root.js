@@ -18,7 +18,10 @@ const Root = () => {
 					<h2>EXPERIENCE</h2>
 				</section>
 			</main>
-			<Contact />
+			<footer id="hello" className="blue">
+				<Contact />
+				<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
+			</footer>
 		</>
 	);
 };
