@@ -6,7 +6,7 @@ html, body {
     padding: 0;
     overscroll-behavior: none;
     font-family: 'Montserrat', sans-serif;
-    color: #17255a;
+    color: #1F4034;
     background-color: #FEFDFF;
 }
 
@@ -18,7 +18,7 @@ html, body {
 }
 
 .blue {
-    background-color: #17255a;
+    background-color: #1F4034;
     color: #FEFDFF;
     width: 100%;
     padding-top: 0.83rem;
@@ -68,7 +68,7 @@ ul {
 }
 
 nav {
-    background-color: #17255a;
+    background-color: #1F4034;
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -98,16 +98,26 @@ nav {
 }
 
 .name {
-    top: 25vh;
+    bottom: 35vh;
 }
 
 .subheader {
-    top: 33vh;
+    bottom: 32vh;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
 }
 
+.scroll {
+    position: absolute;
+    bottom: 28vh;
+}
+
+#temp {
+    background-color: #E8E6E7;
+    color:  #1F4034;
+    height: 30vh;
+}
 
 
 /* ABOUT  */
@@ -140,7 +150,7 @@ h1 {
 
 #about {
     background-color: #FEFDFF;
-    color: #17255a;
+    color: #1F4034;
     display: flex;
     flex-direction: column;
     align-content: center;
