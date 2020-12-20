@@ -14,10 +14,7 @@ const About = () => {
 					id="profile-pic"
 				/>
 				<div id="bio">
-					<h3>
-						Hello! I'm Alexandra Langton, a fullstack software developer based
-						in New York City.
-					</h3>
+					<h1>ABOUT ME</h1>
 					<p>
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts

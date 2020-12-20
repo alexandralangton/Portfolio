@@ -17,7 +17,7 @@ html, body {
     align-content: center;
 }
 
-.blue {
+.green {
     background-color: #1F4034;
     color: #FEFDFF;
     width: 100%;
@@ -26,6 +26,7 @@ html, body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .flex {
@@ -34,7 +35,7 @@ a {
 }
 
 p, h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.5;
 }
 
@@ -89,7 +90,7 @@ nav {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     position: relative;
 }
 
@@ -142,19 +143,45 @@ nav {
     bottom: 28vh;
 }
 
+
+/* INTRO */
+
 #intro {
     margin-top: 0;
     background-color: #E8E6E7;
     color:  #1F4034;
-    height: 30vh;
 }
 
+#intro-cont {
+    display: flex;
+    justify-content: center;
+    margin: 0vh 10vw 1vh 10vw;
+}
+
+#intro-head {
+    padding-top: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    max-width: 65rem;
+}
+
+#intro-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0vh 10vw;
+    padding-bottom: 3vw;
+}
+
+.max-size {
+    max-width: 65rem;
+}
 
 /* ABOUT  */
-
-header {
-    margin-top: 12vh;
-}
 
 h1 {
     text-align: right;

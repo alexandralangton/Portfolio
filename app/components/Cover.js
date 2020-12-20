@@ -15,6 +15,7 @@ let idx = 0;
 
 const Cover = (props) => {
 	const [subHeader, setSubHeader] = useState('');
+	const [showArrow, revealArrow] = useState(true);
 	const [showImages, revealImages] = useState(false);
 	const container = useRef(null);
 
@@ -32,8 +33,8 @@ const Cover = (props) => {
 		const onScroll = () => {
 			const scrollPosition = window.scrollY + window.innerHeight;
 			if (bottomPosition * 2 < scrollPosition) {
-				console.log('scroll pos: ', scrollPosition);
 				props.setScroll(true);
+				revealArrow(false);
 			}
 		};
 		window.addEventListener('scroll', onScroll);
@@ -58,18 +59,23 @@ const Cover = (props) => {
 					<div className="cover icons">
 						<Contact />
 					</div>
-					<div className="cover arrow-flex">
-						<Link
-							to="intro"
-							smooth={true}
-							spy={true}
-							offset={-60}
-							onClick={() => props.setScroll(true)}
-							activeClass="active"
-						>
-							<img src={whiteChevron} className="arrow pulse" />
-						</Link>
-					</div>
+					{showArrow && (
+						<div className="cover arrow-flex">
+							<Link
+								to="intro"
+								smooth={true}
+								spy={true}
+								offset={-60}
+								onClick={() => {
+									props.setScroll(true);
+									revealArrow(false);
+								}}
+								activeClass="active"
+							>
+								<img src={whiteChevron} className="arrow pulse" />
+							</Link>
+						</div>
+					)}
 				</div>
 			)}
 		</section>
