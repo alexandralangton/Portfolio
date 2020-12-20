@@ -41,7 +41,7 @@ const projectList = [
 
 const Projects = () => {
 	return (
-		<section id="projects" className="blue">
+		<section id="projects" className="green">
 			<h2>PROJECTS</h2>
 			<div className="flex-vertical">
 				{projectList.map((project) => (

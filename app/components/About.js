@@ -3,13 +3,10 @@ import al from '../images/al.jpeg';
 
 const About = () => {
 	console.log(
-		`Hello! If you're looking for a software developer, please feel free to reach out! My email is alexandra.langton@outlook.com. Thanks!`
+		`Hello! If you're looking for a software developer, I'd love to learn more about any available roles! My email is alexandra.langton@outlook.com. Thanks!`
 	);
 	return (
 		<section id="about">
-			<header>
-				<h1>ALEXANDRA LANGTON</h1>
-			</header>
 			<div className="flex me">
 				<img
 					src={al}
@@ -17,10 +14,7 @@ const About = () => {
 					id="profile-pic"
 				/>
 				<div id="bio">
-					<h3>
-						Hello! I'm Alexandra Langton, a fullstack software developer based
-						in New York City.
-					</h3>
+					<h1>ABOUT ME</h1>
 					<p>
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts
