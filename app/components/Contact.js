@@ -12,52 +12,43 @@ const Contact = () => {
 	const [emSrc, setEmSrc] = useState(Email);
 
 	return (
-		<section id="hello" className="blue">
-			<h2>GET IN TOUCH</h2>
-			<div className="flex middle">
-				<div id="contact-blurb">
-					<p>
-						Like what you see? Say hello! <br />
-						I'm available for full time positions, as well as freelance
-						projects.
-					</p>
-				</div>
-				<div id="contact-links">
-					<a href="mailto:alexandra.langton@outlook.com?subject=Hello!">
-						<img
-							src={emSrc}
-							onMouseEnter={() => setEmSrc(EmailOrange)}
-							onMouseLeave={() => setEmSrc(Email)}
-							className="logo"
-						/>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/alexandralangton/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img
-							src={liSrc}
-							onMouseEnter={() => setLiSrc(LinkedInOrange)}
-							onMouseLeave={() => setLiSrc(LinkedIn)}
-							className="logo"
-						/>
-					</a>
-					<a
-						href="https://github.com/alexandralangton"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img
-							src={ghSrc}
-							onMouseEnter={() => setGhSrc(GitHubOrange)}
-							onMouseLeave={() => setGhSrc(GitHub)}
-							className="logo"
-						/>
-					</a>
-				</div>
+		<footer id="hello" className="blue">
+			<div id="contact-links">
+				<a href="mailto:alexandra.langton@outlook.com?subject=Hello!">
+					<img
+						src={emSrc}
+						onMouseEnter={() => setEmSrc(EmailOrange)}
+						onMouseLeave={() => setEmSrc(Email)}
+						className="logo"
+					/>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/alexandralangton/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={liSrc}
+						onMouseEnter={() => setLiSrc(LinkedInOrange)}
+						onMouseLeave={() => setLiSrc(LinkedIn)}
+						className="logo"
+					/>
+				</a>
+				<a
+					href="https://github.com/alexandralangton"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={ghSrc}
+						onMouseEnter={() => setGhSrc(GitHubOrange)}
+						onMouseLeave={() => setGhSrc(GitHub)}
+						className="logo"
+					/>
+				</a>
 			</div>
-		</section>
+			<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
+		</footer>
 	);
 };
 
