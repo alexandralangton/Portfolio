@@ -7,6 +7,7 @@ html, body {
     overscroll-behavior: none;
     font-family: 'Montserrat', sans-serif;
     color: #1F4034;
+    font-weight: 500;
     background-color: #FEFDFF;
 }
 
@@ -174,11 +175,28 @@ nav {
     justify-content: center;
     text-align: center;
     margin: 0vh 10vw;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
 }
 
 .max-size {
     max-width: 65rem;
+}
+
+.intro-icon {
+    padding: 1rem;
+}
+
+.small {
+    font-size: 3.5rem;
+    height: 4rem;
+}
+
+.icon-flex {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 /* ABOUT  */
