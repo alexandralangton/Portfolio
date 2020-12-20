@@ -1,50 +1,55 @@
 import React, { useEffect, useState } from 'react';
 import woods from '../images/woods.jpg';
+import { Link } from 'react-scroll';
+import whiteChevron from '../images/whiteChevron.png';
+import Contact from './Contact';
 
 let subHeaders = [
 	'PROJECT MANAGER',
 	'LINGUIST',
 	'OXFORD COMMA FAN',
-	'LIFE LONG LEARNER',
+	'LIFE-LONG LEARNER',
 	'SOFTWARE DEVELOPER',
 ];
-let idx = -1;
+let idx = 0;
 
 const Cover = (props) => {
 	const [subHeader, setSubHeader] = useState('');
+	const [showImages, revealImages] = useState(false);
 
 	useEffect(() => {
 		const rotateText = setInterval(() => {
 			setSubHeader(subHeaders[idx]);
 			++idx;
 		}, 1500);
-		setTimeout(() => clearInterval(rotateText), 9000);
+		setTimeout(() => clearInterval(rotateText), 7500);
+		setTimeout(() => revealImages(true), 9000);
 	}, []);
 
 	return (
-		<>
-			<div id="about-container">
-				<img src={woods} id="cover-pic" alt="Alexandra walking in the woods" />
-				<h1 className="cover name">ALEXANDRA LANGTON</h1>
-				<h3 className="cover subheader">{subHeader}</h3>
-				<button
-					type="button"
-					className="scroll"
-					onClick={() => props.setScroll(true)}
-				>
-					LEARN MORE
-				</button>
-			</div>
-			<div id="temp">
-				<h1 style={{ marginTop: 0 }}>Nice to meet you!</h1>
-				<p style={{ textAlign: 'center' }}>
-					Lorem ipsum blah blah prentend I'm a paragraph, hi I'm Alex I like JS
-					and CSS and sometimes even some SQL. I used to like languages but I
-					got bored. ETC ETrkjglj kwrltk lkyt lk4yjlk lwky klwyk l4kyl4k 4lyk3l
-					k3yl.
-				</p>
-			</div>
-		</>
+		<section id="cover-container">
+			<img src={woods} id="cover-pic" alt="Alexandra walking in the woods" />
+			<h1 className="cover name">ALEXANDRA LANGTON</h1>
+			<h2 className="cover subheader">{subHeader}</h2>
+			{showImages && (
+				<div>
+					<div className="cover icons">
+						<Contact />
+					</div>
+					<div className="cover arrow-flex">
+						<Link
+							to="about"
+							smooth={true}
+							spy={true}
+							onClick={() => props.setScroll(true)}
+							activeClass="active"
+						>
+							<img src={whiteChevron} className="arrow pulse" />
+						</Link>
+					</div>
+				</div>
+			)}
+		</section>
 	);
 };
 

@@ -4,24 +4,30 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Cover from './Cover';
+import Intro from './Intro';
 
 const Root = () => {
 	const [hasScrolled, setScroll] = useState(false);
 	return (
 		<>
-			<main>
-				{hasScrolled && <Navbar />}
-				<Cover setScroll={setScroll} />
-				<About />
-				<Projects />
-				<section id="experience">
-					<h2>EXPERIENCE</h2>
-				</section>
-			</main>
-			<footer id="hello" className="blue">
-				<Contact />
-				<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
-			</footer>
+			{hasScrolled && <Navbar />}
+			<Cover setScroll={setScroll} />
+			{/* {hasScrolled && ( */}
+			<>
+				<main>
+					<Intro />
+					<About />
+					<Projects />
+					<section id="experience">
+						<h2>EXPERIENCE</h2>
+					</section>
+				</main>
+				<footer id="hello" className="blue">
+					<Contact />
+					<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
+				</footer>
+			</>
+			{/* )} */}
 		</>
 	);
 };
