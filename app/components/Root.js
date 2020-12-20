@@ -14,11 +14,8 @@ const Root = () => {
 				<section id="experience">
 					<h2>EXPERIENCE</h2>
 				</section>
-				<Contact />
 			</main>
-			<footer>
-				<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
-			</footer>
+			<Contact />
 		</>
 	);
 };

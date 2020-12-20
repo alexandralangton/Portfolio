@@ -14,9 +14,6 @@ const Navbar = () => {
 				<Link to="experience" smooth={true} spy={true} activeClass="active">
 					<li>EXPERIENCE</li>
 				</Link>
-				<Link to="hello" smooth={true} spy={true} activeClass="active">
-					<li>CONTACT</li>
-				</Link>
 			</ul>
 		</nav>
 	);
