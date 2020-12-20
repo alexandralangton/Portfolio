@@ -9,9 +9,9 @@ import Intro from './Intro';
 const Root = () => {
 	const [hasScrolled, setScroll] = useState(false);
 	return (
-		<>
+		<div>
 			{hasScrolled && <Navbar />}
-			<Cover setScroll={setScroll} />
+			<Cover setScroll={setScroll} scrolled={hasScrolled} />
 			{/* {hasScrolled && ( */}
 			<>
 				<main>
@@ -28,7 +28,7 @@ const Root = () => {
 				</footer>
 			</>
 			{/* )} */}
-		</>
+		</div>
 	);
 };
 

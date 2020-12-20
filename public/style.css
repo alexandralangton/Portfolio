@@ -53,12 +53,13 @@ li {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.1rem;
     list-style: none;
+    font-weight: 500;
     cursor: pointer;
     color: #FEFDFF;
 }
 
 ul {
-    padding: 0.5vh 0;
+    padding: 0.5vh;
     display: flex;
     justify-content: space-evenly;
 }
@@ -69,9 +70,11 @@ ul {
 
 nav {
     background-color: #1F4034;
+    border-bottom: 1px #E8E6E7 solid;
     z-index: 1;
+    opacity: 80%;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
 }
@@ -227,9 +230,9 @@ h1 {
     justify-content: center;
 }
 
-/* span:hover {
+span:hover {
     color: #ff5400;
-} */
+}
 
 /* FOOTER */
 
@@ -248,6 +251,6 @@ h1 {
 
 footer {
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.5rem 0rem;
 }
 
