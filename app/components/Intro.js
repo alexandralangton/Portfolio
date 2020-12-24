@@ -14,7 +14,7 @@ const Intro = () => {
 			</div>
 			<div id="intro-blurb">
 				<p className="max-size">
-					A current Teaching Fellow at and recent graduate from{' '}
+					A current Teaching Fellow at and recent graduate of{' '}
 					<b>
 						<a href="https://www.gracehopper.com/">The Grace Hopper Program</a>
 					</b>{' '}
