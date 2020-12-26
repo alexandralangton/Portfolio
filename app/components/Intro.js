@@ -29,7 +29,7 @@ const Intro = () => {
 					technologies.
 				</p>
 			</div>
-			<div className="project-flex">
+			<div className="flex">
 				<div className="icon-flex">
 					<FontAwesomeIcon icon={faJsSquare} size="3x" className="intro-icon" />
 					<FontAwesomeIcon icon={faDatabase} size="3x" className="intro-icon" />

@@ -4,15 +4,15 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
 	return (
 		<nav>
-			<ul>
+			<ul className="nav-link">
 				<Link
+					activeClass="active"
 					to="intro"
 					smooth={true}
 					spy={true}
 					offset={-60}
-					activeClass="active"
 				>
-					<li>ABOUT</li>
+					<li className="nav-link-li">ABOUT</li>
 				</Link>
 				<Link
 					to="tech-stack"
@@ -21,7 +21,7 @@ const Navbar = () => {
 					offset={-60}
 					activeClass="active"
 				>
-					<li>TECHNOLOGIES</li>
+					<li className="nav-link-li">TECHNOLOGIES</li>
 				</Link>
 				<Link
 					to="projects"
@@ -30,7 +30,7 @@ const Navbar = () => {
 					offset={-60}
 					activeClass="active"
 				>
-					<li>PROJECTS</li>
+					<li className="nav-link-li">PROJECTS</li>
 				</Link>
 				<Link
 					to="experience"
@@ -39,7 +39,7 @@ const Navbar = () => {
 					offset={-60}
 					activeClass="active"
 				>
-					<li>EXPERIENCE</li>
+					<li className="nav-link-li">EXPERIENCE</li>
 				</Link>
 			</ul>
 		</nav>

@@ -1,56 +1,81 @@
 import React from 'react';
 import Bridge from '../images/Bridge.jpeg';
+import Bridge2 from '../images/Bridge2.jpeg';
 
 const TechStack = () => {
 	return (
 		<section id="tech-stack" className="green">
 			<div className="inline-flex full">
 				<div id="tech-blurb">
-					<h1>TECH STACK</h1>
-					<span>SOFTWARE</span>
-					<span>
-						<b>Proficient:</b>
-					</span>
-					<ul>
-						<li>JavaScript</li>
-						<li>Node.js</li>
-						<li>Express</li>
-						<li>PostgreSQL</li>
-						<li>HTML & CSS</li>
-						<li>React</li>
-						<li>React Native</li>
-						<li>Redux</li>
-						<li>Webpack</li>
-						<li>Git & GitHub</li>
-					</ul>
-					<span>
-						<b>Familiar:</b>
-					</span>
-					<ul>
-						<li>SQL</li>
-						<li>Heroku</li>
-						<li>Firebase</li>
-						<li>Travis</li>
-						<li>Babel</li>
-						<li>Mocha</li>
-						<li>Chai</li>
-						<li>Jasmine</li>
-						<li>TDD</li>
-					</ul>
-					<span>COLLABORATIVE TOOLS</span>
-					<ul>
-						<li>Jira</li>
-						<li>Smartsheet</li>
-						<li>GitHub Projects</li>
-						<li>Trello</li>
-						<li>Basecamp</li>
-						<li>ProofHQ</li>
-						<li>Slack</li>
-						<li>Microsoft Teams</li>
-					</ul>
+					<div className="border">
+						<h1 id="tech-head">TECH STACK</h1>
+						<p>
+							As a developer and a project manager, these are the technologies
+							and tools I know and love:
+						</p>
+						<span className="tech-subhead top">PROFICIENT:</span>
+						<div id="tech-flex">
+							<div className="tech-col">
+								<ul>
+									<li>JavaScript</li>
+									<li>Node.js</li>
+									<li>Express</li>
+									<li>PostgreSQL</li>
+									<li>Webpack</li>
+								</ul>
+							</div>
+							<div className="tech-col">
+								<ul>
+									<li>HTML & CSS</li>
+									<li>React</li>
+									<li>React Native</li>
+									<li>Redux</li>
+									<li>Git & GitHub</li>
+								</ul>
+							</div>
+						</div>
+						<span className="tech-subhead">FAMILIAR:</span>
+						<div id="tech-flex">
+							<div className="tech-col">
+								<ul>
+									<li>SQL</li>
+									<li>Heroku</li>
+									<li>Firebase</li>
+									<li>Travis</li>
+								</ul>
+							</div>
+							<div className="tech-col">
+								<ul>
+									<li>Babel</li>
+									<li>Mocha</li>
+									<li>Chai</li>
+									<li>Jasmine</li>
+								</ul>
+							</div>
+						</div>
+						<span className="tech-subhead">COLLABORATIVE TOOLS:</span>
+						<div id="tech-flex">
+							<div className="tech-col">
+								<ul>
+									<li>Jira</li>
+									<li>Smartsheet</li>
+									<li>GitHub Projects</li>
+									<li>Trello</li>
+								</ul>
+							</div>
+							<div className="tech-col">
+								<ul>
+									<li>Basecamp</li>
+									<li>ProofHQ</li>
+									<li>Slack</li>
+									<li>Microsoft Teams</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div id="tech-pic-container">
-					<img src={Bridge} id="tech-pic" />
+					<img src={Bridge2} id="tech-pic" />
 				</div>
 			</div>
 		</section>

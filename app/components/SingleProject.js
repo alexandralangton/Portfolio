@@ -19,7 +19,7 @@ const SingleProject = (props) => {
 				<h4 className="project-title">{name}</h4>
 				<br />
 				<p>{description}</p>
-				<div className="project-flex">
+				<div className="flex">
 					<a href={link1URL} target="_blank" rel="noopener noreferrer">
 						<span className="project-link">{link1}</span>
 					</a>

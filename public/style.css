@@ -31,17 +31,27 @@ a {
 
 .flex {
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .inline-flex {
     display: inline-flex;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 p, h3 {
     margin-bottom: 1rem;
     line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.75rem;
+    font-size: 2.5rem;
+    margin-right: 5vw;
+    margin-bottom: 7vh;
 }
 
 h2 {
@@ -55,25 +65,6 @@ h2 {
 
 /* NAVBAR */
 
-li {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.1rem;
-    list-style: none;
-    font-weight: 500;
-    cursor: pointer;
-    color: #FEFDFF;
-}
-
-ul {
-    padding: 0.5vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.active, li:hover {
-    color: #ff5400;
-}
-
 nav {
     background-color: #1F4034;
     border-bottom: 1px #E8E6E7 solid;
@@ -83,6 +74,29 @@ nav {
     width: 100vw;
     top: 0;
     left: 0;
+}
+
+.nav-link {
+    padding: 0.5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link-li {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: #FEFDFF;
+}
+
+.nav-link-li:hover {
+    color: #ff5400;
+}
+
+.active {
+    color: #ff5400;
 }
 
 /* COVER */
@@ -206,13 +220,8 @@ nav {
 
 /* ABOUT  */
 
-h1 {
+.right-align {
     text-align: right;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.75rem;
-    font-size: 2.5rem;
-    margin-right: 5vw;
-    margin-bottom: 7vh;
 }
 
 #profile-pic {
@@ -249,7 +258,13 @@ h1 {
 }
 
 #tech-blurb {
-    width: 50vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.border {
+    margin: 0 10%;
 }
 
 #tech-pic-container {
@@ -257,13 +272,52 @@ h1 {
     max-height: 100vh;
 }
 
+#cover-pic {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* max-height: 100vh; */
+    position: relative;
+}
+
+#tech-head {
+    margin-bottom: 2.5rem;
+    margin-right: 0rem;
+}
+
 #tech-pic {
-    width: 50vw;
+    max-width: 50vw;
+    max-width: 50vw;
+    min-height: 100%;
     max-height: 100vh;
-    /* max-height: ; */
     /* height: 100vh; */
-    object-fit: contain;
+    object-fit: cover;
     /* position: relative; */
+}
+
+#tech-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-col {
+    width: 50%;
+}
+
+.tech-subhead {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.15rem;
+    display: block;
+    margin: 3% 0;
+}
+
+.top {
+    margin-top: 5%;
+}
+
+li {
+    /* margin: 2% 0; */
+    line-height: 1.5rem;
 }
 
 /* PROJECTS */
@@ -296,18 +350,13 @@ h1 {
 .project-link {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.15rem;
-    color: #FEFDFF;
     margin: 0vw 4vw;
 }
 
-.project-flex {
-    display: flex;
-    justify-content: center;
-}
-
-span:hover {
+.project-link:hover {
     color: #ff5400;
 }
+
 
 /* CONTACT IMAGES */
 

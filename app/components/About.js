@@ -14,7 +14,7 @@ const About = () => {
 					id="profile-pic"
 				/>
 				<div id="bio">
-					<h1>ABOUT ME</h1>
+					<h1 className="right-align">ABOUT ME</h1>
 					<p>
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts
