@@ -124,6 +124,7 @@ nav {
     bottom: 5vh;
     width: 6rem;
     height: auto;
+    cursor: pointer;
 }
 
 .pulse {
@@ -315,10 +316,14 @@ span:hover {
     padding-top: 0.5rem;
 }
 
-.logo {
-    width: 2rem;
+.contact-icon {
+    font-size: 2.3rem;
     align-self: center;
     margin-right: 1.5rem;
+}
+
+.contact-icon:hover {
+    color: #ff5400;
 }
 
 /* FOOTER */
