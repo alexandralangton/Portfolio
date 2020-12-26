@@ -22,7 +22,6 @@ html, body {
     background-color: #1F4034;
     color: #FEFDFF;
     width: 100%;
-    padding-top: 0.83rem;
 }
 
 a {
@@ -32,6 +31,11 @@ a {
 
 .flex {
     display: flex;
+    align-content: center;
+}
+
+.inline-flex {
+    display: inline-flex;
     align-content: center;
 }
 
@@ -213,12 +217,12 @@ h1 {
 #profile-pic {
     height: auto;
     max-height: 35rem;
-    margin-left: 5vw;
-    margin-bottom: 5vw;
+    margin: 3vh 0;
     border-radius: 1%;
 }
 
 #bio {
+    max-width: 34rem;
     margin: 0 3vw;
     line-height: 1.5;
 }
@@ -229,12 +233,37 @@ h1 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    width: 100vw;
 }
 
 .me {
     max-width: 70rem;
+    align-self: center;
 }
 
+/* TECH STACK */
+
+.full {
+    width: 100vw;
+}
+
+#tech-blurb {
+    width: 50vw;
+}
+
+#tech-pic-container {
+    width: 50vw;
+    max-height: 100vh;
+}
+
+#tech-pic {
+    width: 50vw;
+    max-height: 100vh;
+    /* max-height: ; */
+    /* height: 100vh; */
+    object-fit: contain;
+    /* position: relative; */
+}
 
 /* PROJECTS */
 
@@ -279,7 +308,7 @@ span:hover {
     color: #ff5400;
 }
 
-/* FOOTER */
+/* CONTACT IMAGES */
 
 #contact-links {
     margin-bottom: 1rem;
@@ -292,7 +321,7 @@ span:hover {
     margin-right: 1.5rem;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     text-align: center;

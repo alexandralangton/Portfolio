@@ -41,8 +41,8 @@ const projectList = [
 
 const Projects = () => {
 	return (
-		<section id="projects" className="green">
-			<h2>PROJECTS</h2>
+		<section id="projects">
+			<h1>PROJECTS</h1>
 			<div className="flex-vertical">
 				{projectList.map((project) => (
 					<SingleProject key={project.projectNo} info={project} />

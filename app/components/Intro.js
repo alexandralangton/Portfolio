@@ -31,11 +31,7 @@ const Intro = () => {
 			</div>
 			<div className="project-flex">
 				<div className="icon-flex">
-					{/* <div className="square">
-				<div className="pic"> */}
 					<FontAwesomeIcon icon={faJsSquare} size="3x" className="intro-icon" />
-					{/* </div>
-			</div> */}
 					<FontAwesomeIcon icon={faDatabase} size="3x" className="intro-icon" />
 					<FontAwesomeIcon
 						icon={faGitAlt}

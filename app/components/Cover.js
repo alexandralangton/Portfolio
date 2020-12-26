@@ -48,7 +48,6 @@ const Cover = (props) => {
 				id="cover-pic"
 				alt="Alexandra walking in the woods"
 				onScroll={() => {
-					console.log('you scrolled!');
 					props.setScroll(true);
 				}}
 			/>

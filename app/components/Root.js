@@ -5,6 +5,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Cover from './Cover';
 import Intro from './Intro';
+import TechStack from './TechStack';
 
 const Root = () => {
 	const [hasScrolled, setScroll] = useState(false);
@@ -15,6 +16,7 @@ const Root = () => {
 			<main>
 				<Intro />
 				<About />
+				<TechStack />
 				<Projects />
 				<section id="experience">
 					<h2>EXPERIENCE</h2>
