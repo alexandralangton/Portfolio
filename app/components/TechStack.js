@@ -1,6 +1,4 @@
 import React from 'react';
-import Bridge from '../images/Bridge.jpeg';
-import Bridge2 from '../images/Bridge2.jpeg';
 
 const TechStack = () => {
 	return (
@@ -9,9 +7,9 @@ const TechStack = () => {
 				<div id="tech-blurb">
 					<div className="border">
 						<h1 id="tech-head">TECH STACK</h1>
-						<p>
-							As a developer and a project manager, these are the technologies
-							and tools I know and love:
+						<p className="tech-p">
+							These are the technologies and tools I know and love as a
+							developer and a&nbsp;project&nbsp;manager:
 						</p>
 						<span className="tech-subhead top">PROFICIENT:</span>
 						<div id="tech-flex">
@@ -74,9 +72,7 @@ const TechStack = () => {
 						</div>
 					</div>
 				</div>
-				<div id="tech-pic-container">
-					<img src={Bridge2} id="tech-pic" />
-				</div>
+				<div id="tech-pic" />
 			</div>
 		</section>
 	);

@@ -20,6 +20,9 @@ const Cover = (props) => {
 	const container = useRef(null);
 
 	useEffect(() => {
+		console.log(
+			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles! My email is alexandra.langton@outlook.com. Thanks!`
+		);
 		const rotateText = setInterval(() => {
 			setSubHeader(subHeaders[idx]);
 			++idx;

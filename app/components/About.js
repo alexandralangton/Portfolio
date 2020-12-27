@@ -2,9 +2,6 @@ import React from 'react';
 import al from '../images/al.jpeg';
 
 const About = () => {
-	console.log(
-		`Hello! If you're looking for a software developer, I'd love to learn more about any available roles! My email is alexandra.langton@outlook.com. Thanks!`
-	);
 	return (
 		<section id="about">
 			<div className="flex me">
