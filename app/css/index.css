@@ -43,6 +43,7 @@ a {
 p, h3 {
     margin-bottom: 1rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 h1 {
@@ -51,6 +52,8 @@ h1 {
     letter-spacing: 0.75rem;
     font-size: 2.5rem;
     margin-right: 5vw;
+    padding-top: 5vh;
+    margin-top: 0;
     margin-bottom: 7vh;
 }
 
@@ -181,7 +184,7 @@ nav {
     padding-top: 1.5rem;
     text-align: center;
     line-height: 1.4;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.08rem;
     font-weight: 500;
     max-width: 65rem;
 }
@@ -198,6 +201,7 @@ nav {
 
 .max-size {
     max-width: 65rem;
+    text-align: center;
 }
 
 .intro-icon {
@@ -318,8 +322,14 @@ li {
 
 /* PROJECTS */
 
+#projects {
+    background-color: #E8E6E7;
+    color: #1F4034;
+}
+
 .project {
     padding: 3vw 5vw;
+    margin-bottom: 3vh;
     display: flex;
     align-items: center;
     align-self: center;
@@ -327,13 +337,13 @@ li {
 
 .project-img {
     max-width: 25rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 .project-title {
     text-align: center;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
     margin: 0rem 0rem 1rem 0rem;
@@ -343,10 +353,24 @@ li {
     max-width: 30rem;
 }
 
+.project-description {
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.white {
+    padding: 2rem;
+    margin-left: 2.5rem;
+    background-color: #FEFDFF;
+}
+
 .project-link {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.15rem;
-    margin: 0vw 4vw;
+    margin: 0vh 4vw;
+    padding: 0.5vh 0vh;
+    border-top: 1px #1F4034 solid;
+    border-bottom: 1px #1F4034 solid;
 }
 
 .project-link:hover {

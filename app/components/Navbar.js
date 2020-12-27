@@ -10,7 +10,7 @@ const Navbar = () => {
 					to="intro"
 					smooth={true}
 					spy={true}
-					offset={-60}
+					offset={-63}
 				>
 					<li className="nav-link-li">ABOUT</li>
 				</Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
 					to="tech-stack"
 					smooth={true}
 					spy={true}
-					offset={-60}
+					offset={-63}
 					activeClass="active"
 				>
 					<li className="nav-link-li">TECHNOLOGIES</li>
@@ -27,7 +27,7 @@ const Navbar = () => {
 					to="projects"
 					smooth={true}
 					spy={true}
-					offset={-60}
+					offset={-63}
 					activeClass="active"
 				>
 					<li className="nav-link-li">PROJECTS</li>
@@ -36,7 +36,7 @@ const Navbar = () => {
 					to="experience"
 					smooth={true}
 					spy={true}
-					offset={-60}
+					offset={-63}
 					activeClass="active"
 				>
 					<li className="nav-link-li">EXPERIENCE</li>

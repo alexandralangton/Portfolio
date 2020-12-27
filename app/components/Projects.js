@@ -1,6 +1,8 @@
 import React from 'react';
 import SingleProject from './SingleProject';
 import GS from '../images/GS.png';
+import ceDemoMp4 from '../images/ceDemoMp4.mp4';
+import al from '../images/al.jpeg';
 
 const projectList = [
 	{
@@ -18,18 +20,17 @@ const projectList = [
 	{
 		projectNo: 2,
 		name: 'ENGLISH WEBSITE LOCALIZER',
-		img: GS,
+		img: ceDemoMp4,
 		link1: 'GITHUB',
 		link1URL: 'https://github.com/alexandralangton/UKEN-Chrome-Extension',
 		link2: null,
 		link2URL: null,
-		description: `Inspired by my experiences as a British person attempting to navigate an American kitchen and recipe websites, this Google Chrome Extension translates whatever website you're on from American into British English, checking a dictionary I compiled of over 400 terms and phrases, and inserting conversion pop-ups for common terms.
-    Currently under development&mdash;stay tuned for this to be deployed onto the Google Chrome store and check out GitHub to see the latest additions!`,
+		description: `Inspired by my experiences as a British person navigating an American kitchen, this Google Chrome Extension translates websites from American into British English, checking a dictionary I compiled of over 400 terms and phrases, and inserting conversion pop-ups for common terms. \nCurrently under development\u2014stay tuned for this to be deployed onto the Google Chrome store and check out GitHub to see the latest enhancements!`,
 	},
 	{
 		projectNo: 3,
 		name: 'GRAY STOPPER',
-		img: GS,
+		img: al,
 		link1: 'VISIT',
 		link1URL: 'https://gray-stopper.herokuapp.com/',
 		link2: 'GITHUB',
