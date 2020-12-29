@@ -6,6 +6,7 @@ const SingleProject = (props) => {
 		name,
 		img,
 		description,
+		techStack,
 		link1,
 		link2,
 		link1URL,
@@ -26,11 +27,15 @@ const SingleProject = (props) => {
 			<div className="project-text white">
 				<h4 className="project-title">{name}</h4>
 				<br />
-				{description.split('\n').map((para) => (
-					<p className="project-description" key={projectNo}>
+				{description.split('\n').map((para, idx) => (
+					<p className="project-description" key={idx}>
 						{para}
 					</p>
 				))}
+				<p className="tech">
+					<span className="tech-stack">TECH STACK: </span>
+					{techStack}
+				</p>
 				<div className="flex">
 					<a href={link1URL} target="_blank" rel="noopener noreferrer">
 						<span className="project-link">{link1}</span>

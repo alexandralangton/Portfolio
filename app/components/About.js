@@ -1,5 +1,5 @@
 import React from 'react';
-import al from '../images/al.jpeg';
+import al from '../media/al.jpeg';
 
 const About = () => {
 	return (

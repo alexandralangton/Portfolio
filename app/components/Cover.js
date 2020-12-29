@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useLayoutEffect, useRef } from 'react';
-import woods from '../images/woods.jpg';
+import woods from '../media/woods.jpg';
 import { Link } from 'react-scroll';
-import whiteChevron from '../images/whiteChevron.png';
+import whiteChevron from '../media/whiteChevron.png';
 import Contact from './Contact';
 
 let subHeaders = [
