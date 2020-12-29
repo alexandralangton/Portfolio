@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
 import Cover from './Cover';
 import Intro from './Intro';
+import About from './About';
 import TechStack from './TechStack';
+import Projects from './Projects';
+import Experience from './Experience';
+import Footer from './Footer';
 
 const Root = () => {
 	const [hasScrolled, setScroll] = useState(false);
@@ -18,14 +19,9 @@ const Root = () => {
 				<About />
 				<TechStack />
 				<Projects />
-				<section id="experience">
-					<h2>EXPERIENCE</h2>
-				</section>
+				<Experience />
 			</main>
-			<footer id="hello" className="green">
-				<Contact />
-				<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
-			</footer>
+			<Footer />
 		</>
 	);
 };

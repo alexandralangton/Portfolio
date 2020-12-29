@@ -2,7 +2,6 @@ import React from 'react';
 
 const SingleProject = (props) => {
 	const {
-		projectNo,
 		name,
 		img,
 		description,
@@ -15,7 +14,7 @@ const SingleProject = (props) => {
 
 	return (
 		<div className="project flex">
-			<div className="project-text">
+			<div className="project-img-box">
 				{img.match(/\.mp4$/) ? (
 					<video autoPlay muted loop className="project-img">
 						<source src={img} type="video/mp4" />
@@ -28,6 +27,7 @@ const SingleProject = (props) => {
 				<h4 className="project-title">{name}</h4>
 				<br />
 				{description.split('\n').map((para, idx) => (
+					// idx used as key as there is no unique numerical information here
 					<p className="project-description" key={idx}>
 						{para}
 					</p>

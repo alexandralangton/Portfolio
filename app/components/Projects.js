@@ -2,14 +2,14 @@ import React from 'react';
 import SingleProject from './SingleProject';
 import GS from '../media/GS.png';
 import chromeExtensionDemo from '../media/chromeExtensionDemo.mp4';
-import al from '../media/al.jpeg';
+import ab from '../media/ab.png';
 import site from '../media/site.png';
 
 const projectList = [
 	{
 		projectNo: 1,
 		name: 'ACCOUNTABEE',
-		img: al,
+		img: ab,
 		link1: 'VIDEO DEMO',
 		link1URL:
 			'https://www.youtube.com/watch?v=FPdc90aeMHg&list=PLx0iOsdUOUmlk2heasTPCfEM8cj3BD8VS&index=5',
@@ -28,7 +28,7 @@ const projectList = [
 		link1URL: 'https://github.com/alexandralangton/UKEN-Chrome-Extension',
 		link2: null,
 		link2URL: null,
-		description: `Inspired by my experiences as a British person navigating an American kitchen, this Google Chrome Extension translates websites from American into British English, checking a dictionary I compiled of over 400 terms and phrases, and inserting conversion pop-ups for common terms. \nCurrently under development\u2014stay tuned for this to be deployed onto the Google Chrome store and check out GitHub to see the latest enhancements!`,
+		description: `Inspired by my experiences as a British person navigating an American kitchen, this Google Chrome Extension translates websites from American into British English, checking a dictionary I compiled of over 400 terms and phrases and inserting conversion pop-ups for common measurements. \nCurrently under development\u2014stay tuned for this to be deployed onto the Google Chrome store and check out GitHub to see the latest enhancements!`,
 		techStack:
 			'JavaScript, with some support from the Oxford English Dictionary',
 	},
@@ -53,7 +53,7 @@ const projectList = [
 		link1URL: 'https://github.com/alexandralangton/Portfolio',
 		link2: null,
 		link2URL: null,
-		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or templates involved, using React with functional components and hooks only. If you'd like to have a look at the source code, you can see this on my GitHub!`,
+		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates involved, using  functional React components and hooks. If you'd like to have a look at the source code, you can see this on my GitHub!`,
 		techStack: 'JavaScript | HTML | CSS | React | Webpack',
 	},
 ];
