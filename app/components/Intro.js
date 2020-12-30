@@ -19,14 +19,14 @@ const Intro = () => {
 						<a href="https://www.gracehopper.com/">The Grace Hopper Program</a>
 					</b>{' '}
 					at Fullstack Academy&mdash;a fast-paced 18 week immersive coding
-					bootcamp.
+					bootcamp where I learned the fundamentals of fullstack web
+					development, focusing on <b>PostgreSQL</b>, <b>Express</b>,{' '}
+					<b>React</b>, <b>Redux</b>, and <b>Node.js</b>.
 				</p>
 				<p className="max-size">
-					At The Grace Hopper Program I learned the fundamentals of fullstack
-					web development, focusing on <b>PostgreSQL</b>, <b>Express</b>,{' '}
-					<b>React</b>, <b>Redux</b>, and <b>Node.js</b>. There is so much I
-					want to learn and build, and I can't wait to explore new languages and
-					technologies.
+					I'm currently looking for a full time role as a developer. Until then
+					I will keep doing what I love&mdash;writing well organized, clean code
+					that solves real world problems.
 				</p>
 			</div>
 			<div className="flex">

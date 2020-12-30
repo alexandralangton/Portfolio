@@ -15,36 +15,45 @@ const TimelineElem = (props) => {
 		timeframe,
 		overview,
 		details,
+		logo,
 		job,
 	} = props.details;
 	return (
 		<div className="align-timeline-box">
 			<div className="timeline-box">
 				<div className="what-where">
-					<p className="exp-title">{title.toUpperCase()}</p>
-					<p className="exp-subhead city">{location}</p>
+					<div>
+						<p className="exp-title">{title.toUpperCase()}</p>
+						<p className="exp-subhead city">{location}</p>
+					</div>
+					<img src={logo} className="exp-logo" />
 				</div>
-				<p className="exp-subhead company">{company}</p>
-				<p className="exp-subhead">{overview}</p>
-				<span className="circle" />
 				<div className="exp-details-button">
-					<span className="details" onClick={() => revealBullets(!showBullets)}>
-						{showBullets ? `Hide Details` : `See Details`}
-					</span>
+					<p className="exp-subhead company">{company}</p>
 					<FontAwesomeIcon
 						icon={faChevronDown}
 						className="exp-arrow"
 						onClick={() => revealBullets(!showBullets)}
+						flip={showBullets ? 'vertical' : null}
 					/>
 				</div>
+				<span className="circle" />
+				<FontAwesomeIcon
+					icon={job ? faBriefcase : faGraduationCap}
+					className={`exp-icon ${job ? 'briefcase' : 'cap'}`}
+				/>
 				{showBullets && (
-					<ul>
-						{details.split('\u2022').map((bullet, idx) => {
-							return <li key={idx}>{bullet}</li>;
-						})}
-					</ul>
+					<>
+						<p className="exp-subhead">{overview}</p>
+						<ul className="exp-ul">
+							{details.split('.').map((bullet, idx) => {
+								return <li key={idx}>{bullet}</li>;
+							})}
+						</ul>
+					</>
 				)}
 			</div>
+			<div className="date-box">{timeframe}</div>
 		</div>
 	);
 };

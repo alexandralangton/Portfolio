@@ -23,14 +23,11 @@ const About = () => {
 						to personally building great content in code.
 					</p>
 					<p>
-						To that end, I started teaching myself to code, and recently
-						graduated from The Grace Hopper Program's fulltime immersive web
-						development coding bootcamp.
-					</p>
-					<p>
-						I'm currently looking for a full time role as a developer. Until
-						then I will keep doing what I love&mdash;writing well organized,
-						clean code that solves real world problems.
+						Originally hailing from England, I moved to New York four years ago.
+						When I'm not coding you will find me riding my bicycle around
+						Prospect Park, at the climbing wall working on my fear of heights
+						and hoping to one day conquer lead climbing, or just curled up at
+						home with my cat and a hot chocolate reading a novel.
 					</p>
 				</div>
 			</div>
