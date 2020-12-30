@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faChevronDown,
+	faBriefcase,
+	faGraduationCap,
+} from '@fortawesome/free-solid-svg-icons';
 
 const TimelineElem = (props) => {
+	const [showBullets, revealBullets] = useState(false);
 	const {
 		title,
 		company,
@@ -8,7 +15,7 @@ const TimelineElem = (props) => {
 		timeframe,
 		overview,
 		details,
-		logo,
+		job,
 	} = props.details;
 	return (
 		<div className="align-timeline-box">
@@ -20,6 +27,23 @@ const TimelineElem = (props) => {
 				<p className="exp-subhead company">{company}</p>
 				<p className="exp-subhead">{overview}</p>
 				<span className="circle" />
+				<div className="exp-details-button">
+					<span className="details" onClick={() => revealBullets(!showBullets)}>
+						{showBullets ? `Hide Details` : `See Details`}
+					</span>
+					<FontAwesomeIcon
+						icon={faChevronDown}
+						className="exp-arrow"
+						onClick={() => revealBullets(!showBullets)}
+					/>
+				</div>
+				{showBullets && (
+					<ul>
+						{details.split('\u2022').map((bullet, idx) => {
+							return <li key={idx}>{bullet}</li>;
+						})}
+					</ul>
+				)}
 			</div>
 		</div>
 	);

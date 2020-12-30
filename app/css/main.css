@@ -71,7 +71,7 @@ h2 {
 nav {
     background-color: #1F4034;
     border-bottom: 1px #E8E6E7 solid;
-    z-index: 1;
+    z-index: 2;
     opacity: 80%;
     position: fixed;
     width: 100vw;
@@ -397,6 +397,7 @@ li {
     flex-direction: column;
     position: relative;
     margin: 2rem 0;
+    padding-top: 2rem;
 }
 
 .timeline-container::after {
@@ -435,7 +436,6 @@ li {
 }
 
 .timeline-box {
-    /* border: 2px purple dashed; */
     z-index: 100;
     margin: 0.5rem 3rem;
     padding: 1rem;
@@ -451,7 +451,6 @@ li {
     box-shadow: 1px -1px 1px #1F4034;
     position: absolute;
     right: 5.5rem;
-    /* top: 25%; */
     top: calc(50% - 0.5rem);
     transform: rotate(45deg);
     width: 1rem;
@@ -485,6 +484,20 @@ li {
 .exp-subhead {
     margin-top: 0;
     margin-bottom: 0.4rem;
+}
+
+.exp-details-button {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.details, .exp-arrow {
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 0.5rem;
 }
 
 .what-where {
