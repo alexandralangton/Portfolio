@@ -21,7 +21,7 @@ const Cover = (props) => {
 
 	useEffect(() => {
 		console.log(
-			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles! My email is alexandra.langton@outlook.com. Thanks!`
+			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles. My email is alexandra.langton@outlook.com. Thanks!`
 		);
 		const rotateText = setInterval(() => {
 			setSubHeader(subHeaders[idx]);
@@ -54,7 +54,9 @@ const Cover = (props) => {
 					props.setScroll(true);
 				}}
 			/>
-			<h1 className="cover name">ALEXANDRA LANGTON</h1>
+			<div className="flex full">
+				<h1 className="cover name">ALEXANDRA LANGTON</h1>
+			</div>
 			<h2 className="cover subheader">{subHeader}</h2>
 			{showImages && (
 				<div>

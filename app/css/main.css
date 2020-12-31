@@ -1,3 +1,6 @@
+@import './timeline.css';
+@import './media-queries/timeline-onesided.css';
+@import './media-queries/desktop.css';
 
 /* GENERIC */
 
@@ -14,7 +17,8 @@ html, body {
 .flex-vertical {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: flex-end; */
+    align-items: baseline;
     align-content: center;
 }
 
@@ -51,7 +55,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.75rem;
     font-size: 2.5rem;
-    /* margin-right: 5vw; */
     padding-top: 5vh;
     margin-top: 0;
     margin-bottom: 7vh;
@@ -123,7 +126,9 @@ nav {
 }
 
 .name {
+    max-width: 90%;
     bottom: 35vh;
+    line-height: 1.2;
 }
 
 .icons {
@@ -235,9 +240,12 @@ nav {
 }
 
 #bio {
-    max-width: 34rem;
     margin: 0 3vw;
     line-height: 1.5;
+}
+
+.about-pic {
+    width: auto;
 }
 
 #about {
@@ -257,7 +265,7 @@ nav {
 /* TECH STACK */
 
 .full {
-    width: 100vw;
+    width: 100%;
 }
 
 #tech-blurb {
@@ -266,11 +274,6 @@ width: 100%;
 height: 100%;
 justify-content: flex-end;
 align-items: center;
-}
-
-.border {
-    margin-left: 2rem;
-    max-width: 36rem;
 }
 
 #tech-head {
@@ -296,11 +299,9 @@ align-items: center;
 
 .tech-p {
     margin-right: 2rem;
-    text-align: left;
 }
 
 .tech-col {
-    width: 50%;
     max-width: 300px;
     margin-left: 1rem;
 }
@@ -309,7 +310,6 @@ align-items: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.15rem;
     display: block;
-    margin: 3% 0;
 }
 
 .top {

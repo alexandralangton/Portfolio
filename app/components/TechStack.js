@@ -9,7 +9,7 @@ const TechStack = () => {
 						<h1 id="tech-head">TECH STACK</h1>
 						<p className="tech-p">
 							These are the technologies and tools I know and love as a
-							developer and a&nbsp;project&nbsp;manager:
+							developer and a project&nbsp;manager:
 						</p>
 						<span className="tech-subhead top">PROFICIENT:</span>
 						<div id="tech-flex">

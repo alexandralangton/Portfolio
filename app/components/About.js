@@ -5,11 +5,13 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="flex me">
-				<img
-					src={al}
-					alt="A picture of Alexandra Langton in Seattle"
-					id="profile-pic"
-				/>
+				<div className="flex-vertical about-pic">
+					<img
+						src={al}
+						alt="A picture of Alexandra Langton in Seattle"
+						id="profile-pic"
+					/>
+				</div>
 				<div id="bio">
 					<h1 className="right-align">ABOUT ME</h1>
 					<p>
@@ -24,10 +26,10 @@ const About = () => {
 					</p>
 					<p>
 						Originally hailing from England, I moved to New York four years ago.
-						When I'm not coding you will find me riding my bicycle around
-						Prospect Park, at the climbing wall working on my fear of heights
-						and hoping to one day conquer lead climbing, or just curled up at
-						home with my cat and a hot chocolate reading a novel.
+						When I'm not coding you'll find me riding my bicycle around Prospect
+						Park, at the climbing wall working on my fear of heights and hoping
+						to one day conquer lead climbing, or just curled up at home with my
+						cat and a hot chocolate reading a book.
 					</p>
 				</div>
 			</div>
