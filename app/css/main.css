@@ -2,7 +2,7 @@
 @import './media-queries/timeline-onesided.css';
 @import './media-queries/desktop.css';
 
-/* GENERIC */
+/* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES*/
 
 html, body {
     margin: 0;
@@ -17,7 +17,6 @@ html, body {
 .flex-vertical {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     align-items: baseline;
     align-content: center;
 }
@@ -101,9 +100,6 @@ nav {
     color: #ff5400;
 }
 
-.active {
-    color: #ff5400;
-}
 
 /* COVER */
 

@@ -33,9 +33,6 @@ const About = () => {
 					</p>
 				</div>
 			</div>
-			{/* <div id="techstack">
-				<h3>I like to play with these:</h3>
-			</div> */}
 		</section>
 	);
 };

@@ -5,40 +5,16 @@ const Navbar = () => {
 	return (
 		<nav>
 			<ul className="nav-link">
-				<Link
-					activeClass="active"
-					to="intro"
-					smooth={true}
-					spy={true}
-					offset={-63}
-				>
+				<Link to="intro" smooth={true} spy={true} offset={-63}>
 					<li className="nav-link-li">ABOUT</li>
 				</Link>
-				<Link
-					to="tech-stack"
-					smooth={true}
-					spy={true}
-					offset={-63}
-					activeClass="active"
-				>
+				<Link to="tech-stack" smooth={true} spy={true} offset={-63}>
 					<li className="nav-link-li">TECHNOLOGIES</li>
 				</Link>
-				<Link
-					to="projects"
-					smooth={true}
-					spy={true}
-					offset={-63}
-					activeClass="active"
-				>
+				<Link to="projects" smooth={true} spy={true} offset={-63}>
 					<li className="nav-link-li">PROJECTS</li>
 				</Link>
-				<Link
-					to="experience"
-					smooth={true}
-					spy={true}
-					offset={-63}
-					activeClass="active"
-				>
+				<Link to="experience" smooth={true} spy={true} offset={-63}>
 					<li className="nav-link-li">EXPERIENCE</li>
 				</Link>
 			</ul>
