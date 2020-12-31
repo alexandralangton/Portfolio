@@ -455,8 +455,12 @@ li {
         left: 1.25rem;
     }
 
-    .align-timeline-box:nth-child(odd) .timeline-box .exp-icon {
-        left: 1.94rem;
+    .align-timeline-box:nth-child(odd) .timeline-box .briefcase {
+        left: 1.96rem;
+    }
+
+    .align-timeline-box:nth-child(odd) .timeline-box .cap {
+        left: 1.75rem;
     }
 }
 
@@ -523,7 +527,7 @@ li {
     font-weight: 600;
     letter-spacing: 0.1rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.1rem;
     text-align: left;
     align-self: center;
 }
@@ -532,6 +536,7 @@ li {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
 }
+
 
 .exp-details-button {
     width: 100%;
@@ -558,6 +563,7 @@ li {
 
 .city {
     font-size: 0.8rem;
+    margin-top: 0;
 }
 
 .exp-logo {

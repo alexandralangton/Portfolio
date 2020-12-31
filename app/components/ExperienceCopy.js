@@ -26,7 +26,7 @@ const experienceDetails = [
 		overview:
 			'Worked as a mentor and teaching assistant for a cohort of Grace Hopper students.',
 		details:
-			"Providing one-on-one support and feedback on individual take-home coding assessments. Assisting students with workshops and coding problems. Leading lectures on algorithm approaches for 40 students. Acting as a project manager for students' group projects, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students",
+			"Providing one-on-one support and feedback on individual take-home coding assessments. Assisting students with workshops and coding problems. Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students",
 		logo: GH,
 		job: true,
 	},
@@ -37,7 +37,7 @@ const experienceDetails = [
 		location: 'New York, NY',
 		timeframe: '2020\u20132020',
 		overview:
-			"Attended The Grace Hopper Program's immersive 18 week coding bootcamp, focused on the fundamentals of full stack web development.",
+			"Attended The Grace Hopper Program's immersive 18-week coding bootcamp, focused on the fundamentals of full stack web development.",
 		details:
 			'Earned a certificate of completion for successfully completing 553 hours of software development training',
 		logo: GH,
@@ -72,6 +72,20 @@ const experienceDetails = [
 	},
 	{
 		no: 5,
+		title: 'Freelance English Editor',
+		company: 'Freedman International',
+		location: 'New York, NY',
+		timeframe: '2016-now',
+		overview:
+			'Localized websites and client-facing copy from US to UK English and carried out review of original copy for linguistic and factual accuracy, suggesting stylistic improvements.',
+		details:
+			"Reviewed content from a range of clients, including in-house material at the CEO's request. Carried out review of in-layout copy and ensured visual consistency prior to publication",
+		logo:
+			'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
+		job: true,
+	},
+	{
+		no: 6,
 		title: 'Account Team (Various Roles)',
 		company: 'Freedman International',
 		location: 'London, England',
@@ -85,7 +99,7 @@ const experienceDetails = [
 		job: 'true',
 	},
 	{
-		no: 6,
+		no: 7,
 		title: 'BA in German and Italian',
 		company: 'University of Leeds',
 		location: 'Leeds, England',
