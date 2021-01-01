@@ -1,3 +1,45 @@
+
+@media screen and (max-width: 1023px) {
+    .project-img-box {
+        padding: 2rem;
+        z-index: 10;
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+
+    .project-text {
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+
+    .project {
+        margin-bottom: 5rem;
+        box-shadow: none;
+    }
+}
+
+@media screen and (min-width: 624px) {
+    #projects {
+        background: repeating-linear-gradient(
+            to bottom,
+            #F7F3F7,
+            #fff 50px,
+            #fff 60px
+          );
+    }
+}
+
+@media screen and (max-width: 624px) {
+    #projects {
+        background-color: #FFF;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .project {
+        margin-bottom: 6vh;
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+}
+
 @media screen and (max-width: 923px) and (min-width: 776px) {
     #profile-pic {
         max-width: 23rem;
