@@ -16,6 +16,7 @@
 
     .tech-p {
         text-align: left;
+        margin-right: 2rem;
     }
 
     .tech-subhead {
@@ -43,7 +44,7 @@
 
     .tech-p {
         text-align: center;
-        margin: 0 15% 5% 15%;
+        margin: 0 15% 0 15%;
     }
 
     .tech-subhead {
@@ -55,6 +56,10 @@
     .tech-col {
         width: 30%;
         margin-bottom: 2rem;
+    }
+
+    .border {
+        width: 100%;
     }
 }
 

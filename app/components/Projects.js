@@ -6,7 +6,7 @@ const Projects = () => {
 	return (
 		<section id="projects">
 			<h1>PROJECTS</h1>
-			<div className="flex-vertical">
+			<div className="flex-vertical project-cont">
 				{projectList.map((project) => (
 					<SingleProject key={project.projectNo} info={project} />
 				))}

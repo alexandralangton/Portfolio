@@ -1,13 +1,13 @@
-import GS from '../media/GS.png';
+import GS2 from '../media/GS2.png';
 import chromeExtensionDemo from '../media/chromeExtensionDemo.mp4';
-import ab from '../media/ab.png';
-import site from '../media/site.png';
+import ab2 from '../media/ab2.png';
+import site2 from '../media/site2.png';
 
 const projectList = [
 	{
 		projectNo: 1,
 		name: 'ACCOUNTABEE',
-		img: ab,
+		img: ab2,
 		link1: 'VIDEO DEMO',
 		link1URL:
 			'https://www.youtube.com/watch?v=FPdc90aeMHg&list=PLx0iOsdUOUmlk2heasTPCfEM8cj3BD8VS&index=5',
@@ -33,7 +33,7 @@ const projectList = [
 	{
 		projectNo: 3,
 		name: 'GRAY STOPPER',
-		img: GS,
+		img: GS2,
 		link1: 'VISIT',
 		link1URL: 'https://gray-stopper.herokuapp.com/',
 		link2: 'GITHUB',
@@ -46,7 +46,7 @@ const projectList = [
 	{
 		projectNo: 4,
 		name: 'THIS WEBSITE',
-		img: site,
+		img: site2,
 		link1: 'GITHUB',
 		link1URL: 'https://github.com/alexandralangton/Portfolio',
 		link2: null,

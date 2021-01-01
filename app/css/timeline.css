@@ -2,12 +2,16 @@
 
 /* CONSISTENT STYLES FOR ALL SIZES */
 
+#experience {
+    background-color: #E9E7EF;
+}
+
 .timeline-container {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 2rem 0;
-    padding-top: 2rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
 }
 
 .align-timeline-box {
@@ -25,8 +29,8 @@
     padding: 0.5rem 1rem;
     width: 70%;
     max-width: 50rem;
-    background-color: #E8E6E7;
-    box-shadow: 2px 2px 5px #1F4034;
+    background-color: #FFF;
+    box-shadow: 2px 2px 5px #291528;
 }
 
 .date-box {
@@ -41,7 +45,7 @@
 
 .timeline-box .circle {
     background-color: #fff;
-    border: 3px solid #1F4034;
+    border: 3px solid #291528;
     border-radius: 50%;
     position: absolute;
     top: 1rem;
@@ -60,9 +64,11 @@
 
 .cap {
     right: 1.63rem;
+    color: #9E829C;
 }
 
 .briefcase {
+    color: #777E78;
     right: 1.92rem;
 }
 
@@ -135,7 +141,7 @@
     }
 
     .timeline-container::after {
-        background-color: #1F4034;
+        background-color: #291528;
         content: '';
         position: absolute;
         left: calc(50% - 2px);
@@ -146,8 +152,8 @@
 
     .timeline-box::after {
         content: ' ';
-        background-color: #E8E6E7;
-        box-shadow: 1px -1px 1px #1F4034;
+        background-color: #FFF;
+        box-shadow: 1px -1px 1px #291528;
         position: absolute;
         right: 5.5rem;
         top: 2.3rem;
@@ -166,7 +172,7 @@
     .align-timeline-box:nth-child(odd) .timeline-box::after {
         right: auto;
         left: 5.5rem;
-        box-shadow: 0px 0px 0px #1F4034;
+        box-shadow: 0px 0px 0px #291528;
     }
 
     .align-timeline-box:nth-child(odd) .date-box {
