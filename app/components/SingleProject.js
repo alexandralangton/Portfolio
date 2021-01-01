@@ -27,13 +27,14 @@ const SingleProject = (props) => {
 				<h4 className="project-title">{name}</h4>
 				<br />
 				{description.split('\n').map((para, idx) => (
-					// idx used as key as there is no unique numerical information here
 					<p className="project-description" key={idx}>
 						{para}
 					</p>
 				))}
 				<p className="tech">
-					<span className="tech-stack">TECH STACK: </span>
+					<span className="tech-stack">
+						<b>TECH STACK: </b>
+					</span>
 					{techStack}
 				</p>
 				<div className="flex">

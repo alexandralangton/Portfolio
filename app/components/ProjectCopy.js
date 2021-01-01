@@ -51,8 +51,8 @@ const projectList = [
 		link1URL: 'https://github.com/alexandralangton/Portfolio',
 		link2: null,
 		link2URL: null,
-		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates involved, using  functional React components and hooks. If you'd like to have a look at the source code, you can see this on my GitHub!`,
-		techStack: 'JavaScript | HTML | CSS | React | Webpack',
+		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates involved, using functional React components and hooks. If you'd like to have a look at the source code, you can see this on my GitHub!`,
+		techStack: 'JavaScript | React | HTML | CSS | Webpack',
 	},
 ];
 
