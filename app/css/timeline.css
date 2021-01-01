@@ -3,7 +3,7 @@
 /* CONSISTENT STYLES FOR ALL SIZES */
 
 #experience {
-    background-color: #E9E7EF;
+    background-color: #E8E7EE;
 }
 
 .timeline-container {
@@ -45,7 +45,7 @@
 
 .timeline-box .circle {
     background-color: #fff;
-    border: 3px solid #291528;
+    border: 3px solid #273C2C;
     border-radius: 50%;
     position: absolute;
     top: 1rem;
@@ -141,12 +141,12 @@
     }
 
     .timeline-container::after {
-        background-color: #291528;
+        background-color: #273C2C;
         content: '';
         position: absolute;
         left: calc(50% - 2px);
         width: 4px;
-        height: 98%;
+        height: 96%;
         margin-top: 1.75rem;
     }
 
