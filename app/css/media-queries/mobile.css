@@ -1,0 +1,11 @@
+@media screen and (min-width: 550px) {
+    #mobile-nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #desktop-nav {
+        display: none;
+    }
+}

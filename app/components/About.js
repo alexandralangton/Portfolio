@@ -5,12 +5,14 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="flex me">
-				<div className="flex-vertical about-pic">
-					<img
-						src={al}
-						alt="A picture of Alexandra Langton in Seattle"
-						id="profile-pic"
-					/>
+				<div id="size-limit">
+					<div className="flex-vertical about-pic" id="pic-stripes">
+						<img
+							src={al}
+							alt="A picture of Alexandra Langton in Seattle"
+							id="profile-pic"
+						/>
+					</div>
 				</div>
 				<div id="bio">
 					<h1 className="right-align">ABOUT ME</h1>

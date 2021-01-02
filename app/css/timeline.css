@@ -3,7 +3,14 @@
 /* CONSISTENT STYLES FOR ALL SIZES */
 
 #experience {
-    background-color: #E8E7EE;
+    background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px);
+    background-size: 100px 100px;
+    color: #E8E7EE;
+    /* border-top: 1px #9E829C solid;
+    background-image: radial-gradient(currentColor 1px, transparent 2px);
+    background-size: calc(10 * 1px) calc(10 * 1px);
+    color: #E8E7EE; */
+    /* background-color: #E8E7EE; */
 }
 
 .timeline-container {
@@ -30,6 +37,7 @@
     width: 70%;
     max-width: 50rem;
     background-color: #FFF;
+    color: #273C2C;
     box-shadow: 2px 2px 5px #291528;
 }
 
@@ -38,6 +46,7 @@
     font-weight: 600;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
+    color: #273C2C;
     position: absolute;
     right: -8rem;
     top: 2rem;
@@ -53,6 +62,10 @@
     width: 3rem;
     height: 3rem;
     z-index: 1;
+}
+
+#exp-head {
+    color: #273C2C;
 }
 
 .exp-icon {
@@ -173,6 +186,8 @@
         right: auto;
         left: 5.5rem;
         box-shadow: 0px 0px 0px #291528;
+        border-left: 1px #D6D5D7 solid;
+        border-bottom: 1px #D6D5D7 solid;
     }
 
     .align-timeline-box:nth-child(odd) .date-box {

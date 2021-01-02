@@ -1,6 +1,7 @@
 @import './timeline.css';
 @import './media-queries/timeline-onesided.css';
 @import './media-queries/desktop.css';
+@import './media-queries/mobile.css';
 
 /* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES*/
 
@@ -72,11 +73,11 @@ h2 {
 
 nav {
     background-color: #273C2C;
-    border-bottom: 1px #E8E6E7 solid;
     z-index: 100;
     opacity: 80%;
     position: fixed;
     width: 100vw;
+    border-bottom: 1px #E8E6E7 solid;
     top: 0;
     left: 0;
 }
@@ -98,6 +99,16 @@ nav {
 
 .nav-link-li:hover {
     color: #9E829C;
+}
+
+.bars {
+    text-align: right;
+    color: white;
+    margin: 0.5rem;
+}
+
+.mob-li {
+    line-height: 1.8;
 }
 
 
@@ -233,10 +244,26 @@ nav {
     max-height: 35rem;
     margin: 3vh 0;
     border-radius: 1%;
+    transform:translate(35px, -60px);
+}
+
+#pic-stripes {
+    max-height: 35rem;
+    background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
+    /* background-image: radial-gradient(currentColor 1px, transparent 2px);
+    background-size: calc(10 * 1px) calc(10 * 1px); */
+    color: green;
+    margin: 4rem 0 1.5rem 1.5rem;
+}
+
+#size-limit {
+    display: flex;
+    align-items: flex-end;
 }
 
 #bio {
-    margin: 0 3vw;
+    margin: 0 3vw 0 7vw;
     line-height: 1.5;
 }
 
@@ -360,7 +387,7 @@ li {
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0.5rem 0rem 2rem 0rem;
 }
 
 .project-text {

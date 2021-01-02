@@ -25,7 +25,6 @@ const SingleProject = (props) => {
 			</div>
 			<div className="project-text white">
 				<h4 className="project-title">{name}</h4>
-				<br />
 				{description.split('\n').map((para, idx) => (
 					<p className="project-description" key={idx}>
 						{para}
