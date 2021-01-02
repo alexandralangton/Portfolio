@@ -14,7 +14,7 @@ const TechStack = () => {
 						<span className="tech-subhead top">PROFICIENT:</span>
 						<div id="tech-flex">
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>JavaScript</li>
 									<li>Node.js</li>
 									<li>Express</li>
@@ -23,7 +23,7 @@ const TechStack = () => {
 								</ul>
 							</div>
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>HTML & CSS</li>
 									<li>React</li>
 									<li>React Native</li>
@@ -35,7 +35,7 @@ const TechStack = () => {
 						<span className="tech-subhead">FAMILIAR:</span>
 						<div id="tech-flex">
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>SQL</li>
 									<li>Heroku</li>
 									<li>Firebase</li>
@@ -43,7 +43,7 @@ const TechStack = () => {
 								</ul>
 							</div>
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>Babel</li>
 									<li>Mocha</li>
 									<li>Chai</li>
@@ -54,7 +54,7 @@ const TechStack = () => {
 						<span className="tech-subhead">COLLABORATIVE TOOLS:</span>
 						<div id="tech-flex">
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>Jira</li>
 									<li>Smartsheet</li>
 									<li>GitHub Projects</li>
@@ -62,7 +62,7 @@ const TechStack = () => {
 								</ul>
 							</div>
 							<div className="tech-col">
-								<ul>
+								<ul className="tech-ul">
 									<li>Basecamp</li>
 									<li>ProofHQ</li>
 									<li>Slack</li>

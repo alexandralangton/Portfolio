@@ -54,7 +54,6 @@ h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.75rem;
-    font-size: 2.5rem;
     padding-top: 5vh;
     margin-top: 0;
     margin-bottom: 7vh;
@@ -64,7 +63,6 @@ h2 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
-    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -134,12 +132,8 @@ nav {
 
 .name {
     max-width: 90%;
-    bottom: 35vh;
     line-height: 1.2;
-}
-
-.icons {
-    bottom: 27vh;
+    bottom: 35vh;
 }
 
 .arrow-flex {
@@ -150,7 +144,6 @@ nav {
 
 .arrow {
     bottom: 5vh;
-    width: 6rem;
     height: auto;
     cursor: pointer;
 }
@@ -166,7 +159,6 @@ nav {
   }
 
 .subheader {
-    bottom: 33vh;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
@@ -220,13 +212,7 @@ nav {
     padding: 1rem;
 }
 
-.small {
-    font-size: 3.5rem;
-    height: 4rem;
-}
-
 .icon-flex {
-    width: 50vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -244,17 +230,12 @@ nav {
     max-height: 35rem;
     margin: 3vh 0;
     border-radius: 1%;
-    transform:translate(35px, -60px);
 }
 
 #pic-stripes {
-    max-height: 35rem;
     background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
     background-size: 10px 10px;
-    /* background-image: radial-gradient(currentColor 1px, transparent 2px);
-    background-size: calc(10 * 1px) calc(10 * 1px); */
     color: green;
-    margin: 4rem 0 1.5rem 1.5rem;
 }
 
 #size-limit {
@@ -263,7 +244,6 @@ nav {
 }
 
 #bio {
-    margin: 0 3vw 0 7vw;
     line-height: 1.5;
 }
 
@@ -440,11 +420,10 @@ li {
 
 #contact-links {
     margin-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 .contact-icon {
-    font-size: 2.3rem;
     align-self: center;
     margin: 0.5rem 0.75rem;
 }
