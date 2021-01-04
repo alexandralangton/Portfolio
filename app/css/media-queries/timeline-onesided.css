@@ -81,6 +81,8 @@
         transform: rotate(45deg);
         width: 1rem;
         height: 1rem;
+        border-left: 1px #D6D5D7 solid;
+        border-bottom: 1px #D6D5D7 solid;
     }
 }
 
@@ -146,7 +148,7 @@
     }
 
     .align-timeline-box {
-        width: 100%;
+        width: 92.5%;
         right: 7.5%;
     }
 

@@ -36,7 +36,7 @@ const SingleProject = (props) => {
 					</span>
 					{techStack}
 				</p>
-				<div className="flex">
+				<div className="flex wrap">
 					<a href={link1URL} target="_blank" rel="noopener noreferrer">
 						<span className="project-link">{link1}</span>
 					</a>

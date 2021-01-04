@@ -38,6 +38,10 @@ a {
     justify-content: center;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .inline-flex {
     display: inline-flex;
     justify-content: space-between;
@@ -295,14 +299,13 @@ align-items: center;
     background-size: cover;
 }
 
-#tech-flex {
-    display: flex;
-    justify-content: center;
+.tech-flex {
+    display: inline-flex;
+    width: 100%;
 }
 
 .tech-col {
     max-width: 300px;
-    margin-left: 1rem;
 }
 
 .tech-subhead {
@@ -324,9 +327,6 @@ li {
 
 #projects {
       color: #3A3E3B;
-      /* background-image: linear-gradient(0deg, transparent 80%, currentColor 20%);
-      background-size: 20px 20px;
-    color: #F7F3F7; */
 }
 
 .project {
@@ -338,7 +338,6 @@ li {
 }
 
 .project-img {
-    max-width: 25rem;
     max-height: 25rem;
     align-self: center;
     filter: drop-shadow(0 0 0.2rem #ced4da)
@@ -350,7 +349,6 @@ li {
 }
 
 .project-img-box {
-    min-width: 30rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -371,7 +369,6 @@ li {
 }
 
 .project-text {
-    min-width: 20rem;
     max-width: 30rem;
     background-color: #FFF;
     color: #3A3E3B;
