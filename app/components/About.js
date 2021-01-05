@@ -5,12 +5,14 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="flex me">
-				<div className="flex-vertical about-pic">
-					<img
-						src={al}
-						alt="A picture of Alexandra Langton in Seattle"
-						id="profile-pic"
-					/>
+				<div id="size-limit">
+					<div className="flex-vertical about-pic" id="pic-stripes">
+						<img
+							src={al}
+							alt="A picture of Alexandra Langton in Seattle"
+							id="profile-pic"
+						/>
+					</div>
 				</div>
 				<div id="bio">
 					<h1 className="right-align">ABOUT ME</h1>
@@ -18,11 +20,11 @@ const About = () => {
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts
 						of multi-lingual marketing campaigns&mdash;most recently including a
-						series of HTML and JavaScript-based eLearning courses. As I worked
-						with engineers on these adaptations, I came to the conclusion I
-						wanted to work on this type of project in a more hands on way, and
-						dedicate my attention to detail and creative problem-solving skills
-						to personally building great content in code.
+						series of HTML and JavaScript-based projects. As I worked with
+						engineers on these adaptations, I came to the conclusion I wanted to
+						work on this type of project in a more hands on way, and dedicate my
+						creative problem-solving skills and attention to detail to
+						personally building great content in code.
 					</p>
 					<p>
 						Originally hailing from England, I moved to New York four years ago.
@@ -33,9 +35,6 @@ const About = () => {
 					</p>
 				</div>
 			</div>
-			{/* <div id="techstack">
-				<h3>I like to play with these:</h3>
-			</div> */}
 		</section>
 	);
 };

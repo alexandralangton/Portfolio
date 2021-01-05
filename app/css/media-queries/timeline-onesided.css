@@ -6,7 +6,7 @@
     }
 
     .timeline-container::before {
-        background-color: #1F4034;
+        background-color: #273C2C;
         content: '';
         position: absolute;
         left: calc(22% - 2px);
@@ -32,13 +32,11 @@
         margin-right: 8%;
         padding: 0.5rem 1rem;
         max-width: 50rem;
-        background-color: #E8E6E7;
-        box-shadow: 2px 2px 5px #1F4034;
     }
 
     .timeline-box .circle {
         background-color: #fff;
-        border: 3px solid #1F4034;
+        border: 3px solid #273C2C;
         border-radius: 50%;
         position: absolute;
         top: 1rem;
@@ -75,7 +73,7 @@
 
     .timeline-box::before {
         content: ' ';
-        background-color: #E8E6E7;
+        background-color: #FFF;
         position: absolute;
         left: 25%;
         right: 1rem;
@@ -83,6 +81,8 @@
         transform: rotate(45deg);
         width: 1rem;
         height: 1rem;
+        border-left: 1px #D6D5D7 solid;
+        border-bottom: 1px #D6D5D7 solid;
     }
 }
 
@@ -148,13 +148,23 @@
     }
 
     .align-timeline-box {
-        width: 100%;
+        max-width: 92.5%;
         right: 7.5%;
     }
 
     .timeline-container::before {
         left: calc(15% - 2px);
         margin-top: 1rem;
+    }
+
+    .timeline-container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .exp-arrow {
+        align-self: flex-end;
     }
 }
 

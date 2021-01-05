@@ -31,18 +31,10 @@ const Intro = () => {
 			</div>
 			<div className="flex">
 				<div className="icon-flex">
-					<FontAwesomeIcon icon={faJsSquare} size="3x" className="intro-icon" />
-					<FontAwesomeIcon icon={faDatabase} size="3x" className="intro-icon" />
-					<FontAwesomeIcon
-						icon={faGitAlt}
-						size="3x"
-						className="intro-icon small"
-					/>
-					<FontAwesomeIcon
-						icon={faLaptopCode}
-						size="3x"
-						className="intro-icon"
-					/>
+					<FontAwesomeIcon icon={faJsSquare} className="intro-icon" />
+					<FontAwesomeIcon icon={faDatabase} className="intro-icon" />
+					<FontAwesomeIcon icon={faGitAlt} className="intro-icon small" />
+					<FontAwesomeIcon icon={faLaptopCode} className="intro-icon" />
 				</div>
 			</div>
 		</section>

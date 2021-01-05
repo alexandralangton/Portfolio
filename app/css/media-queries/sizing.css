@@ -1,0 +1,424 @@
+
+/* BROWSER TARGETED MEDIA QUERIES */
+
+@media screen and (min-width: 1024px) {
+    .icon-flex {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .project-img-box {
+        padding: 2rem;
+        z-index: 10;
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+
+    .project-text {
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+
+    .project {
+        margin-bottom: 5rem;
+        box-shadow: none;
+    }
+
+    .icon-flex {
+        width: 65vw;
+    }
+}
+
+@media screen and (min-width: 624px) {
+    #projects {
+        background: repeating-linear-gradient(
+            to bottom,
+            #F7F3F7,
+            #fff 50px,
+            #fff 60px
+          );
+          background-color: #F7F3F7;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    #projects {
+        background-color: #F7F3F7;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .project {
+        margin-bottom: 6vh;
+        box-shadow: 5px 5px 15px #ced4da;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #pic-stripes {
+        max-height: 35rem;
+        margin: 4rem 0 1.5rem 1.5rem;
+    }
+
+    #profile-pic {
+        transform:translate(35px, -60px);
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 850px) {
+    #profile-pic {
+        max-width: 23rem;
+        transform:translate(35px, -10px);
+    }
+
+    #pic-stripes {
+        max-height: 30.60rem;
+        margin: 4rem 0 1.5rem 1.5rem;
+    }
+
+    .about-pic {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 891px) {
+    .border {
+        margin-left: 2rem;
+        max-width: 36rem;
+    }
+
+    .tech-p {
+        text-align: left;
+        margin-right: 2rem;
+    }
+
+    .tech-subhead {
+        margin: 3% 0;
+    }
+
+    .tech-col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #tech-pic {
+       width: 100%;
+       height: 50%;
+    }
+
+    .inline-flex {
+        flex-wrap: wrap;
+    }
+
+    #tech-blurb {
+        justify-content: center;
+    }
+
+    .tech-p {
+        text-align: center;
+        margin: 0 15% 0 15%;
+    }
+
+    .tech-subhead {
+        width: 15rem;
+        margin-left: 10%;
+        margin-bottom: 0.5rem;
+    }
+
+    .tech-col {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+
+    .border {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #bio {
+        max-width: 34rem;
+        margin: 0 5vw 0 7vw;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    #pic-stripes {
+        max-height: 35rem;
+        margin-left: -7.5%;
+        margin: 4rem 0 1.5rem 0;
+    }
+
+    .me {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-pic {
+        width: 30rem;
+    }
+
+    #bio {
+        margin: 0 5vw 0 5vw;
+        width: 80%;
+    }
+}
+
+/* MOBILE TARGETED MEDIA QUERIES */
+
+@media screen and (max-width: 849px) and (min-width: 451px) {
+    #profile-pic {
+        transform:translate(35px, -60px);
+    }
+}
+
+@media screen and (max-width: 570px) and (min-width: 400px) {
+    .tech-ul li {
+        min-width: 7rem;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    #mobile-nav{
+        display: none;
+    }
+
+    .project-img {
+        max-width: 25rem;
+    }
+
+
+    .tech-flex {
+        justify-content: center;
+    }
+
+    .project-img-box {
+        width: 30rem;
+    }
+
+    #profile-pic {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .project-img-box {
+        width: 100%;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-img-box {
+        width: 100%;
+    }
+
+    .project-img {
+        max-width: 90%;
+    }
+
+    .tech-col {
+        width: 45%;
+    }
+
+    #profile-pic {
+        height: 30rem;
+    }
+
+    #pic-stripes {
+        height: 30rem;
+        margin-left: -7.5%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .project-img-box {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 420px) {
+    #pic-stripes {
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        bottom: 25vh;
+    }
+
+    .subheader {
+        bottom: 33vh;
+    }
+
+    .arrow {
+        width: 6rem;
+    }
+
+    .contact-icon {
+        font-size: 2.5rem;
+    }
+
+    .intro-icon {
+        font-size: 3rem;
+    }
+
+    .small {
+        font-size: 3.75rem;
+        height: 4rem;
+    }
+
+    .tech-col {
+        margin-left: 1rem;
+    }
+
+    #pic-stripes {
+        background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
+        background-size: 10px 10px;
+        color: green;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .icons {
+        bottom: 21vh;
+    }
+
+    .subheader {
+        bottom: 33vh;
+    }
+
+    .arrow {
+        width: 4.5rem;
+    }
+
+    .contact-icon {
+        font-size: 1.9rem;
+    }
+
+    .intro-icon {
+        font-size: 2.25rem;
+        margin: 0 0.3rem;
+    }
+
+    .small {
+        font-size: 2.75rem;
+    }
+
+    #profile-pic {
+        width: 80%;
+        align-self: center;
+        height: auto;
+    }
+
+    #pic-stripes {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    .tech-p {
+        margin: 0 7% 0 7%;
+    }
+
+    .tech-subhead {
+        margin-left: 7%
+    }
+
+    .tech-flex {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    #pic-stripes {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 366px) {
+    p, h3 {
+        line-height: 1.5;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    h2 {
+       font-size: 1rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .name {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .wrap {
+        line-height: 3;
+    }
+}
+
+@media screen and (min-width: 301px) {
+    .intro-icon {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .intro-icon {
+        padding: 0.5rem;
+    }
+}

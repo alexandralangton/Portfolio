@@ -1,29 +1,32 @@
 @import './timeline.css';
 @import './media-queries/timeline-onesided.css';
-@import './media-queries/desktop.css';
+@import './media-queries/sizing.css';
 
-/* GENERIC */
+/* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES*/
 
 html, body {
     margin: 0;
     padding: 0;
     overscroll-behavior: none;
     font-family: 'Montserrat', sans-serif;
-    color: #1F4034;
+    color: #273C2C;
     font-weight: 400;
     background-color: #FEFDFF;
+}
+
+small {
+    margin: 0 5%;
 }
 
 .flex-vertical {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     align-items: baseline;
     align-content: center;
 }
 
 .green {
-    background-color: #1F4034;
+    background-color: #273C2C;
     color: #FEFDFF;
     width: 100%;
 }
@@ -38,6 +41,10 @@ a {
     justify-content: center;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .inline-flex {
     display: inline-flex;
     justify-content: space-between;
@@ -46,7 +53,6 @@ a {
 
 p, h3 {
     margin-bottom: 1rem;
-    line-height: 1.5;
     text-align: justify;
 }
 
@@ -54,7 +60,6 @@ h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.75rem;
-    font-size: 2.5rem;
     padding-top: 5vh;
     margin-top: 0;
     margin-bottom: 7vh;
@@ -64,7 +69,6 @@ h2 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
-    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -72,12 +76,12 @@ h2 {
 /* NAVBAR */
 
 nav {
-    background-color: #1F4034;
-    border-bottom: 1px #E8E6E7 solid;
+    background-color: #273C2C;
     z-index: 100;
     opacity: 80%;
     position: fixed;
     width: 100vw;
+    border-bottom: 1px #E8E6E7 solid;
     top: 0;
     left: 0;
 }
@@ -98,12 +102,19 @@ nav {
 }
 
 .nav-link-li:hover {
-    color: #ff5400;
+    color: #9E829C;
 }
 
-.active {
-    color: #ff5400;
+.bars {
+    text-align: right;
+    color: white;
+    margin: 0.5rem;
 }
+
+.mob-li {
+    line-height: 1.8;
+}
+
 
 /* COVER */
 
@@ -122,17 +133,12 @@ nav {
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #FEFDFF;
+    color: #F4F3F7;
 }
 
 .name {
     max-width: 90%;
     bottom: 35vh;
-    line-height: 1.2;
-}
-
-.icons {
-    bottom: 27vh;
 }
 
 .arrow-flex {
@@ -143,7 +149,6 @@ nav {
 
 .arrow {
     bottom: 5vh;
-    width: 6rem;
     height: auto;
     cursor: pointer;
 }
@@ -159,7 +164,6 @@ nav {
   }
 
 .subheader {
-    bottom: 33vh;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
@@ -175,8 +179,8 @@ nav {
 
 #intro {
     margin-top: 0;
-    background-color: #E8E6E7;
-    color:  #1F4034;
+    background-color: #E8E7EE;
+    color: #3A3E3B;
 }
 
 #intro-cont {
@@ -209,17 +213,7 @@ nav {
     text-align: center;
 }
 
-.intro-icon {
-    padding: 1rem;
-}
-
-.small {
-    font-size: 3.5rem;
-    height: 4rem;
-}
-
 .icon-flex {
-    width: 50vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -233,14 +227,17 @@ nav {
 }
 
 #profile-pic {
-    height: auto;
     max-height: 35rem;
     margin: 3vh 0;
     border-radius: 1%;
 }
 
+#size-limit {
+    display: flex;
+    align-items: flex-end;
+}
+
 #bio {
-    margin: 0 3vw;
     line-height: 1.5;
 }
 
@@ -250,7 +247,7 @@ nav {
 
 #about {
     background-color: #FEFDFF;
-    color: #1F4034;
+    color: #273C2C;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -292,18 +289,13 @@ align-items: center;
     background-size: cover;
 }
 
-#tech-flex {
-    display: flex;
-    justify-content: center;
-}
-
-.tech-p {
-    margin-right: 2rem;
+.tech-flex {
+    display: inline-flex;
+    width: 100%;
 }
 
 .tech-col {
     max-width: 300px;
-    margin-left: 1rem;
 }
 
 .tech-subhead {
@@ -324,41 +316,52 @@ li {
 /* PROJECTS */
 
 #projects {
-    background-color: #E8E6E7;
-    color: #1F4034;
+      color: #3A3E3B;
 }
 
 .project {
-    padding: 3vw 5vw;
-    margin-bottom: 3vh;
     display: flex;
-    align-items: center;
-    align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: stretch;
+    border-radius: 1%;
 }
 
 .project-img {
-    max-width: 30rem;
-    max-height: 30rem;
+    max-height: 25rem;
+    align-self: center;
+    filter: drop-shadow(0 0 0.2rem #ced4da)
+}
+
+.project-cont {
+    width: 100%;
+    align-items: center;
 }
 
 .project-img-box {
-    width: 30rem;
+    max-width: 30rem;
     text-align: center;
-    margin-right: 2rem;
-    max-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #273C2C;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 1%;
+    box-shadow: 5px 5px 15px #ced4da;
 }
 
 .project-title {
     text-align: center;
-    font-size: 1.25rem;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0.5rem 0rem 2rem 0rem;
 }
 
 .project-text {
     max-width: 30rem;
+    background-color: #FFF;
+    color: #3A3E3B;
 }
 
 .project-description {
@@ -368,48 +371,62 @@ li {
 
 .white {
     padding: 2rem;
-    margin-left: 2.5rem;
-    background-color: #FEFDFF;
-    box-shadow: 5px 5px 10px #ced4da;
 }
 
 .tech {
     padding-bottom: 1rem;
 }
 
+.tech::before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #273C2C;
+}
+
 .project-link {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.1rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
     margin: 0vh 4vw;
-    padding: 0.5vh 0vh;
-    border-top: 1px #1F4034 solid;
-    border-bottom: 1px #1F4034 solid;
+    padding: 0.5vh;
+    border-top: 1px #273C2C solid;
+    border-bottom: 1px #273C2C solid;
 }
 
 .project-link:hover {
-    color: #ff5400;
+    color: #FFF;
+    background-color: #273C2C;
+    border-radius: 5%;
 }
 
 /* CONTACT IMAGES */
 
 #contact-links {
     margin-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 .contact-icon {
-    font-size: 2.3rem;
     align-self: center;
-    margin-right: 1.5rem;
+    margin: 0.5rem 0.75rem;
 }
 
 .contact-icon:hover {
-    color: #ff5400;
+    color: #9E829C;
 }
 
 /* FOOTER */
 
+#hello {
+    z-index: 100;
+}
+
 footer {
+    z-index: 100;
     text-align: center;
     padding: 0.5rem 0rem;
 }

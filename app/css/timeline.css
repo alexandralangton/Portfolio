@@ -2,12 +2,18 @@
 
 /* CONSISTENT STYLES FOR ALL SIZES */
 
+#experience {
+    background-image: radial-gradient(currentColor 1.5px, transparent 1.5px), radial-gradient(currentColor 1.5px, transparent 1.5px);
+    background-size: calc(20 * 1.5px) calc(20 * 1.5px);
+    background-position: 0 0, calc(10 * 1.5px) calc(10 * 1.5px);
+    color: #E8E7EE;
+}
+
 .timeline-container {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 2rem 0;
-    padding-top: 2rem;
+    padding: 1rem 0 2rem 0;
 }
 
 .align-timeline-box {
@@ -25,8 +31,9 @@
     padding: 0.5rem 1rem;
     width: 70%;
     max-width: 50rem;
-    background-color: #E8E6E7;
-    box-shadow: 2px 2px 5px #1F4034;
+    background-color: #FFF;
+    color: #273C2C;
+    box-shadow: 2px 2px 5px #291528;
 }
 
 .date-box {
@@ -34,6 +41,7 @@
     font-weight: 600;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
+    color: #273C2C;
     position: absolute;
     right: -8rem;
     top: 2rem;
@@ -41,7 +49,7 @@
 
 .timeline-box .circle {
     background-color: #fff;
-    border: 3px solid #1F4034;
+    border: 3px solid #273C2C;
     border-radius: 50%;
     position: absolute;
     top: 1rem;
@@ -49,6 +57,14 @@
     width: 3rem;
     height: 3rem;
     z-index: 1;
+}
+
+.green-text {
+    color: #273C2C;
+}
+
+#exp-head {
+    margin-bottom: 3rem;
 }
 
 .exp-icon {
@@ -60,9 +76,11 @@
 
 .cap {
     right: 1.63rem;
+    color: #9E829C;
 }
 
 .briefcase {
+    color: #777E78;
     right: 1.92rem;
 }
 
@@ -79,6 +97,7 @@
 .exp-subhead {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
+    align-self: flex-end;
 }
 
 .exp-details-button {
@@ -86,7 +105,6 @@
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 0.25rem;
 }
 
@@ -94,8 +112,7 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 1.5rem;
-    margin-right: 1rem;
-    margin-top: 0.75rem;
+    margin: 1rem 0.75rem 0rem 0.5rem;
 }
 
 .what-where {
@@ -135,19 +152,19 @@
     }
 
     .timeline-container::after {
-        background-color: #1F4034;
+        background-color: #273C2C;
         content: '';
         position: absolute;
         left: calc(50% - 2px);
         width: 4px;
-        height: 98%;
+        height: 96%;
         margin-top: 1.75rem;
     }
 
     .timeline-box::after {
         content: ' ';
-        background-color: #E8E6E7;
-        box-shadow: 1px -1px 1px #1F4034;
+        background-color: #FFF;
+        box-shadow: 1px -1px 1px #291528;
         position: absolute;
         right: 5.5rem;
         top: 2.3rem;
@@ -166,7 +183,9 @@
     .align-timeline-box:nth-child(odd) .timeline-box::after {
         right: auto;
         left: 5.5rem;
-        box-shadow: 0px 0px 0px #1F4034;
+        box-shadow: 0px 0px 0px #291528;
+        border-left: 1px #D6D5D7 solid;
+        border-bottom: 1px #D6D5D7 solid;
     }
 
     .align-timeline-box:nth-child(odd) .date-box {

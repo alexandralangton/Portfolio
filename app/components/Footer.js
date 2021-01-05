@@ -5,7 +5,9 @@ const Footer = () => {
 	return (
 		<footer id="hello" className="green">
 			<Contact />
-			<small>&#169; 2020 Alexandra Langton. All Rights Reserved.</small>
+			<div className="full flex">
+				<small>&#169; 2021 Alexandra Langton. All Rights Reserved.</small>
+			</div>
 		</footer>
 	);
 };

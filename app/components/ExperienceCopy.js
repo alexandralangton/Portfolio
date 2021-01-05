@@ -1,4 +1,3 @@
-import uol from '../media/uol.png';
 import leeds2 from '../media/leeds2.svg';
 import GH from '../media/GH.jpg';
 import hww from '../media/hww.png';
