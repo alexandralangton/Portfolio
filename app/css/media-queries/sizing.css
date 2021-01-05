@@ -67,7 +67,7 @@
 @media screen and (max-width: 999px) and (min-width: 850px) {
     #profile-pic {
         max-width: 23rem;
-        transform:translate(35px, -5px);
+        transform:translate(35px, -10px);
     }
 
     #pic-stripes {
@@ -143,13 +143,9 @@
 }
 
 @media screen and (max-width: 849px) {
-    #profile-pic {
-        transform:translate(35px, -60px);
-    }
-
     #pic-stripes {
         max-height: 35rem;
-        margin-left: 0;
+        margin-left: -7.5%;
         margin: 4rem 0 1.5rem 0;
     }
 
@@ -171,29 +167,39 @@
 
 /* MOBILE TARGETED MEDIA QUERIES */
 
+@media screen and (max-width: 849px) and (min-width: 451px) {
+    #profile-pic {
+        transform:translate(35px, -60px);
+    }
+}
+
 @media screen and (max-width: 570px) and (min-width: 400px) {
     .tech-ul li {
         min-width: 7rem;
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 551px) {
     #mobile-nav{
         display: none;
-    }
-
-    .project-text {
-        min-width: 20rem;
     }
 
     .project-img {
         max-width: 25rem;
     }
 
+
     .tech-flex {
         justify-content: center;
     }
 
+    .project-img-box {
+        width: 30rem;
+    }
+
+    #profile-pic {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -228,29 +234,26 @@
     .tech-col {
         width: 45%;
     }
+
+    #profile-pic {
+        height: 30rem;
+    }
+
+    #pic-stripes {
+        height: 30rem;
+        margin-left: -7.5%;
+    }
 }
-
-/* @media screen and (min-width: 500px) {
-    .project-img-box {
-        min-width: 30rem;
-    }
-
-    .project-text {
-        width: 100%;
-    }
-
-    .project-img-box {
-        width: 100%;
-    }
-
-    .project-img {
-        max-width: 90%;
-    }
-} */
 
 @media screen and (max-width: 499px) {
     .project-img-box {
         width: 100vw;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 420px) {
+    #pic-stripes {
+        padding-bottom: 1rem;
     }
 }
 
@@ -292,6 +295,11 @@
         margin-left: 1rem;
     }
 
+    #pic-stripes {
+        background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
+        background-size: 10px 10px;
+        color: green;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -330,11 +338,13 @@
 
     #profile-pic {
         width: 80%;
+        align-self: center;
+        height: auto;
     }
 
     #pic-stripes {
-        max-height: 30rem;
-        max-width: 80%;
+        width: 100%;
+        margin: 0 0 1rem 0;
     }
 
     .tech-p {
@@ -350,8 +360,65 @@
     }
 }
 
+@media screen and (max-width: 419px) {
+    #pic-stripes {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 366px) {
+    p, h3 {
+        line-height: 1.5;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    h2 {
+       font-size: 1rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .name {
+        line-height: 1.4;
+    }
+}
+
 @media screen and (max-width: 327px) {
     .wrap {
         line-height: 3;
+    }
+}
+
+@media screen and (min-width: 301px) {
+    .intro-icon {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .intro-icon {
+        padding: 0.5rem;
     }
 }

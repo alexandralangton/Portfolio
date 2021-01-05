@@ -7,19 +7,13 @@
     background-size: calc(20 * 1.5px) calc(20 * 1.5px);
     background-position: 0 0, calc(10 * 1.5px) calc(10 * 1.5px);
     color: #E8E7EE;
-    /* border-top: 1px #9E829C solid;
-    background-image: radial-gradient(currentColor 1px, transparent 2px);
-    background-size: calc(10 * 1px) calc(10 * 1px);
-    color: #E8E7EE; */
-    /* background-color: #E8E7EE; */
 }
 
 .timeline-container {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 2rem;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .align-timeline-box {
@@ -65,8 +59,12 @@
     z-index: 1;
 }
 
-#exp-head {
+.green-text {
     color: #273C2C;
+}
+
+#exp-head {
+    margin-bottom: 3rem;
 }
 
 .exp-icon {
@@ -99,6 +97,7 @@
 .exp-subhead {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
+    align-self: flex-end;
 }
 
 .exp-details-button {
@@ -106,7 +105,6 @@
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 0.25rem;
 }
 
@@ -114,8 +112,7 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 1.5rem;
-    margin-right: 1rem;
-    margin-top: 0.75rem;
+    margin: 1rem 0.75rem 0rem 0.5rem;
 }
 
 .what-where {

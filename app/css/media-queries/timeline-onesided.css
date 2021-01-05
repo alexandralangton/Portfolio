@@ -148,13 +148,23 @@
     }
 
     .align-timeline-box {
-        width: 92.5%;
+        max-width: 92.5%;
         right: 7.5%;
     }
 
     .timeline-container::before {
         left: calc(15% - 2px);
         margin-top: 1rem;
+    }
+
+    .timeline-container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .exp-arrow {
+        align-self: flex-end;
     }
 }
 

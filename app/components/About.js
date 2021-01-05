@@ -20,11 +20,11 @@ const About = () => {
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts
 						of multi-lingual marketing campaigns&mdash;most recently including a
-						series of HTML and JavaScript-based eLearning courses. As I worked
-						with engineers on these adaptations, I came to the conclusion I
-						wanted to work on this type of project in a more hands on way, and
-						dedicate my attention to detail and creative problem-solving skills
-						to personally building great content in code.
+						series of HTML and JavaScript-based projects. As I worked with
+						engineers on these adaptations, I came to the conclusion I wanted to
+						work on this type of project in a more hands on way, and dedicate my
+						creative problem-solving skills and attention to detail to
+						personally building great content in code.
 					</p>
 					<p>
 						Originally hailing from England, I moved to New York four years ago.

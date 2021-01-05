@@ -1,7 +1,6 @@
 @import './timeline.css';
 @import './media-queries/timeline-onesided.css';
-@import './media-queries/desktop.css';
-@import './media-queries/mobile.css';
+@import './media-queries/sizing.css';
 
 /* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES*/
 
@@ -13,6 +12,10 @@ html, body {
     color: #273C2C;
     font-weight: 400;
     background-color: #FEFDFF;
+}
+
+small {
+    margin: 0 5%;
 }
 
 .flex-vertical {
@@ -50,7 +53,6 @@ a {
 
 p, h3 {
     margin-bottom: 1rem;
-    line-height: 1.5;
     text-align: justify;
 }
 
@@ -136,7 +138,6 @@ nav {
 
 .name {
     max-width: 90%;
-    line-height: 1.2;
     bottom: 35vh;
 }
 
@@ -212,10 +213,6 @@ nav {
     text-align: center;
 }
 
-.intro-icon {
-    padding: 1rem;
-}
-
 .icon-flex {
     display: flex;
     justify-content: space-around;
@@ -230,16 +227,9 @@ nav {
 }
 
 #profile-pic {
-    height: auto;
     max-height: 35rem;
     margin: 3vh 0;
     border-radius: 1%;
-}
-
-#pic-stripes {
-    background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
-    background-size: 10px 10px;
-    color: green;
 }
 
 #size-limit {
@@ -349,6 +339,7 @@ li {
 }
 
 .project-img-box {
+    max-width: 30rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -361,7 +352,6 @@ li {
 
 .project-title {
     text-align: center;
-    font-size: 1.5rem;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.25rem;
