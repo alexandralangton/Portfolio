@@ -16,7 +16,7 @@ const SingleProject = (props) => {
 		<div className="project flex">
 			<div className="project-img-box">
 				{img.match(/\.mp4$/) ? (
-					<video autoPlay muted loop className="project-img">
+					<video autoPlay muted loop className="project-img" id={name}>
 						<source src={img} type="video/mp4" />
 					</video>
 				) : (
@@ -24,7 +24,7 @@ const SingleProject = (props) => {
 				)}
 			</div>
 			<div className="project-text white">
-				<h4 className="project-title">{name}</h4>
+				<h4 className="project-title">{name.toUpperCase()}</h4>
 				{description.split('\n').map((para, idx) => (
 					<p className="project-description" key={idx}>
 						{para}
@@ -38,11 +38,11 @@ const SingleProject = (props) => {
 				</p>
 				<div className="flex wrap">
 					<a href={link1URL} target="_blank" rel="noopener noreferrer">
-						<span className="project-link">{link1}</span>
+						<span className="project-link">{link1.toUpperCase()}</span>
 					</a>
 					{link2 && (
 						<a href={link2URL} target="_blank" rel="noopener noreferrer">
-							<span className="project-link">{link2}</span>
+							<span className="project-link">{link2.toUpperCase()}</span>
 						</a>
 					)}
 				</div>

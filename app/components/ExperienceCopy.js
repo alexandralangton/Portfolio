@@ -1,4 +1,4 @@
-import leeds2 from '../media/leeds2.svg';
+import leeds from '../media/leeds.svg';
 import GH from '../media/GH.jpg';
 import hww from '../media/hww.png';
 
@@ -106,7 +106,7 @@ const experienceDetails = [
 		overview: '',
 		details:
 			'Received a 2:1 (Hons) degree. Studied abroad in Verona, Italy for one year and Munich, Germany for four months',
-		logo: leeds2,
+		logo: leeds,
 		job: false,
 	},
 ];

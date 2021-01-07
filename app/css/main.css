@@ -350,6 +350,10 @@ li {
     box-shadow: 5px 5px 15px #ced4da;
 }
 
+#accountabee {
+    border-radius: 8%;
+}
+
 .project-title {
     text-align: center;
     font-weight: 500;
