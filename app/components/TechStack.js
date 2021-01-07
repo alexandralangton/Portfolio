@@ -1,5 +1,5 @@
 import React from 'react';
-import TechStackCol from './TechStackCol';
+import TechStackSection from './TechStackSection';
 
 const proficient = [
 	'JavaScript',
@@ -45,34 +45,12 @@ const TechStack = () => {
 							These are the technologies and tools I know and love as a
 							developer and a project manager:
 						</p>
-						<span className="tech-subhead top">PROFICIENT:</span>
-						<div className="tech-flex">
-							<TechStackCol
-								technology={proficient.slice(0, proficient.length / 2)}
-							/>
-							<TechStackCol
-								technology={proficient.slice(proficient.length / 2)}
-							/>
-						</div>
-						<span className="tech-subhead">FAMILIAR:</span>
-						<div className="tech-flex">
-							<TechStackCol
-								technology={familiar.slice(0, familiar.length / 2)}
-							/>
-							<TechStackCol technology={familiar.slice(familiar.length / 2)} />
-						</div>
-						<span className="tech-subhead">COLLABORATIVE TOOLS:</span>
-						<div className="tech-flex">
-							<TechStackCol
-								technology={collabTools.slice(0, collabTools.length / 2)}
-							/>
-							<TechStackCol
-								technology={collabTools.slice(collabTools.length / 2)}
-							/>
-						</div>
+						<TechStackSection name="proficient" tech={proficient} />
+						<TechStackSection name="familiar" tech={familiar} />
+						<TechStackSection name="collaborative tools" tech={collabTools} />
 					</div>
+					<div id="tech-pic" />
 				</div>
-				<div id="tech-pic" />
 			</div>
 		</section>
 	);
