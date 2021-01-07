@@ -2,7 +2,7 @@
 @import './media-queries/timeline-onesided.css';
 @import './media-queries/sizing.css';
 
-/* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES*/
+/* GENERIC STYLING ACROSS ALL DEVICES AND SCREEN SIZES */
 
 html, body {
     margin: 0;

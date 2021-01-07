@@ -1,4 +1,38 @@
 import React from 'react';
+import TechStackCol from './TechStackCol';
+
+const proficient = [
+	'JavaScript',
+	'Node.js',
+	'Express',
+	'PostgreSQL',
+	'Webpack',
+	'HTML & CSS',
+	'React',
+	'React Native',
+	'Redux',
+	'Git & GitHub',
+];
+const familiar = [
+	'SQL',
+	'Firebase',
+	'Heroku',
+	'Travis',
+	'Babel',
+	'Mocha',
+	'Chai',
+	'Jasmine',
+];
+const collabTools = [
+	'Jira',
+	'Smartsheet',
+	'GitHub Projects',
+	'Trello',
+	'Basecamp',
+	'ProofHQ',
+	'Slack',
+	'Microsoft Teams',
+];
 
 const TechStack = () => {
 	return (
@@ -13,62 +47,28 @@ const TechStack = () => {
 						</p>
 						<span className="tech-subhead top">PROFICIENT:</span>
 						<div className="tech-flex">
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>JavaScript</li>
-									<li>Node.js</li>
-									<li>Express</li>
-									<li>PostgreSQL</li>
-									<li>Webpack</li>
-								</ul>
-							</div>
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>HTML & CSS</li>
-									<li>React</li>
-									<li>React Native</li>
-									<li>Redux</li>
-									<li>Git & GitHub</li>
-								</ul>
-							</div>
+							<TechStackCol
+								technology={proficient.slice(0, proficient.length / 2)}
+							/>
+							<TechStackCol
+								technology={proficient.slice(proficient.length / 2)}
+							/>
 						</div>
 						<span className="tech-subhead">FAMILIAR:</span>
 						<div className="tech-flex">
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>SQL</li>
-									<li>Heroku</li>
-									<li>Firebase</li>
-									<li>Travis</li>
-								</ul>
-							</div>
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>Babel</li>
-									<li>Mocha</li>
-									<li>Chai</li>
-									<li>Jasmine</li>
-								</ul>
-							</div>
+							<TechStackCol
+								technology={familiar.slice(0, familiar.length / 2)}
+							/>
+							<TechStackCol technology={familiar.slice(familiar.length / 2)} />
 						</div>
 						<span className="tech-subhead">COLLABORATIVE TOOLS:</span>
 						<div className="tech-flex">
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>Jira</li>
-									<li>Smartsheet</li>
-									<li>GitHub Projects</li>
-									<li>Trello</li>
-								</ul>
-							</div>
-							<div className="tech-col">
-								<ul className="tech-ul">
-									<li>Basecamp</li>
-									<li>ProofHQ</li>
-									<li>Slack</li>
-									<li>Microsoft Teams</li>
-								</ul>
-							</div>
+							<TechStackCol
+								technology={collabTools.slice(0, collabTools.length / 2)}
+							/>
+							<TechStackCol
+								technology={collabTools.slice(collabTools.length / 2)}
+							/>
 						</div>
 					</div>
 				</div>

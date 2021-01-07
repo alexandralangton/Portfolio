@@ -162,7 +162,7 @@
     }
 
     .timeline-box::after {
-        content: ' ';
+        content: '';
         background-color: #FFF;
         box-shadow: 1px -1px 1px #291528;
         position: absolute;

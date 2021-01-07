@@ -20,7 +20,11 @@ const SingleProject = (props) => {
 						<source src={img} type="video/mp4" />
 					</video>
 				) : (
-					<img src={img} className="project-img" />
+					<img
+						src={img}
+						className="project-img"
+						alt={`A screenshot of ${name}`}
+					/>
 				)}
 			</div>
 			<div className="project-text white">

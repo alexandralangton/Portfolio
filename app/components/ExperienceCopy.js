@@ -67,7 +67,7 @@ const experienceDetails = [
 		details:
 			'Project managed both external and internal studios, carried out localization, testing and problem resolution of broadcast, digital and print assets. Took briefs, created project plans and timelines, managed all scope changes and ensured deadlines were met. Proactively managed fast-paced projects with challenging timelines, finding creative solutions to challenges while maintaining a consistent profit margin. Successfully onboarded a top Fortune 500 beauty company, managing localization and deployment of their rebranding campaign across all platforms',
 		logo: hww,
-		job: 'true',
+		job: true,
 	},
 	{
 		no: 5,
@@ -95,7 +95,7 @@ const experienceDetails = [
 			"Created and implemented quoting templates across multiple client accounts, standardizing the process and introducing time efficiencies. Scoped and quoted new campaigns and projects of up to $250,000 each month, ensuring adherence to budget at all stages of projects. Trained over 15 junior team members, with a particular emphasis on quality control. Delegated and oversaw junior team members’ work, acted as an escalation point for any issues and ensured all deadlines were met with a high standard of deliverables. Oversaw the set up and maintenance of an online client content management site containing over 15,000 assets; dealt with any client queries and generated reports on site usage. Acted as the UK English brand ambassador for a FTSE 100 company at the client's request due to proven subject matter expertise ",
 		logo:
 			'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
-		job: 'true',
+		job: true,
 	},
 	{
 		no: 7,
