@@ -18,6 +18,7 @@ const TimelineElem = (props) => {
 		logo,
 		job,
 	} = props.details;
+
 	return (
 		<div className="align-timeline-box">
 			<div className="timeline-box">

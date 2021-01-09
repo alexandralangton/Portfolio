@@ -112,7 +112,8 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 1.5rem;
-    margin: 1rem 0.75rem 0rem 0.5rem;
+    margin: 1rem 0.75rem 0rem 0.75rem;
+    align-self: flex-end;
 }
 
 .what-where {
@@ -144,9 +145,10 @@
     font-size: 0.9rem;
 }
 
+
 /* STYLES FOR DOUBLE-SIDED TIMELINE ONLY */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1101px) {
     .timeline-container::before {
         display: none;
     }
@@ -157,7 +159,7 @@
         position: absolute;
         left: calc(50% - 2px);
         width: 4px;
-        height: 96%;
+        height: 100%;
         margin-top: 1.75rem;
     }
 

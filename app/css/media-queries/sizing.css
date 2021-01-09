@@ -1,9 +1,29 @@
 
 /* BROWSER TARGETED MEDIA QUERIES */
 
+@media screen and (min-width: 1645px) {
+    .project-link {
+        margin: 0vh 3vw;
+    }
+}
+
+@media screen and (max-width: 1644px) {
+    .project-link {
+        margin: 0vh 3vw;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .icon-flex {
         width: 50vw;
+    }
+
+    .project-img-box {
+        max-width: 30rem;
+    }
+
+    .project-text {
+        max-width: 30rem;
     }
 }
 
@@ -25,6 +45,14 @@
 
     .icon-flex {
         width: 65vw;
+    }
+
+    .project-img-box {
+        max-width: 28rem;
+    }
+
+    .project-text {
+        max-width: 28rem;
     }
 }
 
@@ -98,6 +126,10 @@
     .tech-col {
         width: 50%;
     }
+
+    .top {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 890px) {
@@ -111,6 +143,7 @@
     }
 
     #tech-blurb {
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -123,11 +156,15 @@
         width: 15rem;
         margin-left: 10%;
         margin-bottom: 0.5rem;
+        padding-top: 1rem;
+    }
+
+    .tech-flex {
+        margin-bottom: 1rem;
     }
 
     .tech-col {
         width: 30%;
-        margin-bottom: 2rem;
     }
 
     .border {
@@ -352,11 +389,16 @@
     }
 
     .tech-subhead {
-        margin-left: 7%
+        margin-left: 7%;
+        padding-top: 3%;
     }
 
     .tech-flex {
         justify-content: space-around;
+    }
+
+    .tech-ul li {
+        min-width: 5rem;
     }
 }
 
