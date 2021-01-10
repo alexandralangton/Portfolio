@@ -1,12 +1,21 @@
 import React from 'react';
 import al from '../media/al.jpeg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({ once: true });
 
 const About = () => {
 	return (
 		<section id="about">
 			<div className="flex me">
 				<div id="size-limit">
-					<div className="flex-vertical about-pic" id="pic-stripes">
+					<div
+						className="flex-vertical about-pic"
+						id="pic-stripes"
+						data-aos="flip-left"
+						data-aos-delay="750"
+						data-aos-duration="1000"
+					>
 						<img
 							src={al}
 							alt="A picture of Alexandra Langton in Seattle"
@@ -14,7 +23,12 @@ const About = () => {
 						/>
 					</div>
 				</div>
-				<div id="bio">
+				<div
+					id="bio"
+					data-aos="fade-up"
+					data-aos-delay="750"
+					data-aos-duration="1000"
+				>
 					<h1 className="right-align">ABOUT ME</h1>
 					<p>
 						After studying languages at university I worked for several years as

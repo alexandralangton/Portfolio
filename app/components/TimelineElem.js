@@ -5,6 +5,9 @@ import {
 	faBriefcase,
 	faGraduationCap,
 } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({ once: true, useClassNames: true });
 
 const TimelineElem = (props) => {
 	const [showBullets, revealBullets] = useState(false);
@@ -20,7 +23,7 @@ const TimelineElem = (props) => {
 	} = props.details;
 
 	return (
-		<div className="align-timeline-box">
+		<div className="align-timeline-box" data-aos="slide-up">
 			<div className="timeline-box">
 				<div className="what-where">
 					<div>

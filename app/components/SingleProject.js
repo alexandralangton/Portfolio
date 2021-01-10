@@ -1,4 +1,7 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({ once: true });
 
 const SingleProject = (props) => {
 	const {
@@ -16,7 +19,15 @@ const SingleProject = (props) => {
 		<div className="project flex">
 			<div className="project-img-box">
 				{img.match(/\.mp4$/) ? (
-					<video autoPlay muted loop className="project-img" id={name}>
+					<video
+						autoPlay
+						muted
+						loop
+						className="project-img"
+						id={name}
+						data-aos="zoom-in-up"
+						data-aos-duration="1000"
+					>
 						<source src={img} type="video/mp4" />
 					</video>
 				) : (
@@ -24,6 +35,8 @@ const SingleProject = (props) => {
 						src={img}
 						className="project-img"
 						alt={`A screenshot of ${name}`}
+						data-aos="zoom-in-up"
+						data-aos-duration="1000"
 					/>
 				)}
 			</div>

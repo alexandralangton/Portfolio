@@ -1,5 +1,8 @@
 import React from 'react';
 import TechStackSection from './TechStackSection';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({ once: true });
 
 const proficient = [
 	'JavaScript',
@@ -39,7 +42,12 @@ const TechStack = () => {
 		<section id="tech-stack" className="green">
 			<div className="inline-flex full">
 				<div id="tech-blurb">
-					<div className="border">
+					<div
+						className="border"
+						data-aos="fade-up"
+						data-aos-offset="400"
+						data-aos-duration="1000"
+					>
 						<h1 id="tech-head">TECH STACK</h1>
 						<p className="tech-p">
 							These are the technologies and tools I know and love as a
