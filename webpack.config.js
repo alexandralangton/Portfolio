@@ -8,6 +8,9 @@ module.exports = {
 		contentBase: path.join(__dirname, 'public'),
 		port: 8000,
 	},
+	watchOptions: {
+		ignored: /node_modules/,
+	},
 	module: {
 		rules: [
 			{

@@ -2,14 +2,11 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJsSquare, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init({ once: true });
 
 const Intro = () => {
 	return (
 		<section id="intro">
-			<div data-aos="zoom-in">
+			<div>
 				<div id="intro-cont">
 					<h2 id="intro-head">
 						Hello! I'm Alexandra Langton, a fullstack software developer based

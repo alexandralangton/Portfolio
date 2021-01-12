@@ -1,13 +1,13 @@
 import GS from '../media/GS.png';
 import chromeExtensionDemo from '../media/chromeExtensionDemo.mp4';
-import AB from '../media/AB.mp4';
+import ab from '../media/AB.png';
 import site from '../media/site.png';
 
 const projectList = [
 	{
 		projectNo: 1,
 		name: 'accountabee',
-		img: AB,
+		img: ab,
 		link1: 'video demo',
 		link1URL:
 			'https://www.youtube.com/watch?v=FPdc90aeMHg&list=PLx0iOsdUOUmlk2heasTPCfEM8cj3BD8VS&index=5',
@@ -39,7 +39,7 @@ const projectList = [
 		link2: 'github',
 		link2URL: 'https://github.com/Gray-Stopper/grace-shopper',
 		description:
-			'A mock ecommerce website selling hair products, created by myself and two other pun-loving developers as part of The Grace Hopper program. Beneath the whimsical images and humorous product categories lies a fully functional site, featuring Etsy-inspired stock-checks when a user checks out, and a secured admin dashboard to adjust stock levels, add new products, and manage site users.\nI tackled vertical slices of the site including the user cart and the secured admin dashboard.',
+			'A mock ecommerce website selling hair products, created by myself and two other pun-loving developers as part of The Grace Hopper program. Beneath the whimsical images and humorous product categories lies a fully functional site, featuring Etsy-inspired stock-checks when a user checks out, and a secured admin dashboard to adjust stock levels, add new products, and manage site users.\nI tackled vertical slices of the site including the shopping cart, home page and the secured admin dashboard.',
 		techStack:
 			'JavaScript | React | Redux | Expo | Firebase | Node.js | Express | PostgreSQL | Sequelize | Heroku',
 	},
@@ -51,7 +51,7 @@ const projectList = [
 		link1URL: 'https://github.com/alexandralangton/Portfolio',
 		link2: null,
 		link2URL: null,
-		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code, design templates or style libraries used. The site was built with React, using functional components and hooks.\nIf you'd like to have a look at the source code, you can see this on my GitHub. I would welcome any feedback!`,
+		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates used. The site was built with React, using functional components and hooks.\nIf you'd like to have a look at the source code, you can see this on my GitHub. I would welcome any feedback!`,
 		techStack: 'JavaScript | React | HTML | CSS | Webpack',
 	},
 ];
