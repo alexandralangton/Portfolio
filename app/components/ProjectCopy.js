@@ -14,7 +14,7 @@ const projectList = [
 		link2: 'github',
 		link2URL: 'https://github.com/AccountaBee/AccountaBee_Frontend',
 		description:
-			'AccountaBee is a social goal-tracking mobile app, which lets users set weekly goals with their friends and keep each other socially accountable. AccountaBee was developed as part of a team over a two week sprint, and was an enjoyable way to explore the technical challenges of creating a social network from an organizational perspective. \nI developed features including the goal setting pages, goal visualization dashboard and user profile page, along with the app navigational set up.',
+			'AccountaBee is a social goal-tracking mobile app, which lets users set weekly goals with their friends and keep each other socially accountable. AccountaBee was developed as part of a team over a two week sprint, and was an enjoyable way to explore the technical challenges of creating a social network from an organizational perspective. \nI developed features including the goal setting pages and goals dashboard, along with the app navigational set up.',
 		techStack:
 			'JavaScript | React Native | Redux | Node.js | Expo | Firebase | Express | PostgreSQL | Sequelize | Heroku',
 	},
@@ -52,7 +52,7 @@ const projectList = [
 		link2: null,
 		link2URL: null,
 		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates used. The site was built with React, using functional components and hooks.\nIf you'd like to have a look at the source code, you can see this on my GitHub. I would welcome any feedback!`,
-		techStack: 'JavaScript | React | HTML | CSS | Webpack',
+		techStack: 'JavaScript | React | HTML | CSS | Webpack | AWS S3',
 	},
 ];
 

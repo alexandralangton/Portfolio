@@ -14,21 +14,25 @@ let subHeaders = [
 let idx = 0;
 
 const Cover = (props) => {
+	const [name, showName] = useState(false);
 	const [subHeader, setSubHeader] = useState('');
 	const [showArrow, revealArrow] = useState(true);
 	const [showImages, revealImages] = useState(false);
 	const container = useRef(null);
 
-	useEffect(() => {
-		console.log(
-			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles. My email is alexandra.langton@outlook.com. Thanks!`
-		);
+	const textReel = () => {
 		const rotateText = setInterval(() => {
 			setSubHeader(subHeaders[idx]);
 			++idx;
 		}, 1500);
-		setTimeout(() => clearInterval(rotateText), 7500);
+		setTimeout(() => clearInterval(rotateText), 7510);
 		setTimeout(() => revealImages(true), 9000);
+	};
+
+	useEffect(() => {
+		console.log(
+			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles you have. My email is alexandra.langton@outlook.com. Thanks!`
+		);
 	}, []);
 
 	useLayoutEffect(() => {
@@ -45,17 +49,21 @@ const Cover = (props) => {
 	}, []);
 
 	return (
-		<section id="cover-container" ref={container}>
+		<section id="cover-container" ref={container} style={{ height: '100vh' }}>
 			<img
 				src={woods}
 				id="cover-pic"
 				alt="Alexandra walking in the woods"
+				onLoad={() => {
+					showName(true);
+					textReel();
+				}}
 				onScroll={() => {
 					props.setScroll(true);
 				}}
 			/>
 			<div className="flex full">
-				<h1 className="cover name">ALEXANDRA LANGTON</h1>
+				{name && <h1 className="cover name">ALEXANDRA LANGTON</h1>}
 			</div>
 			<h2 className="cover subheader">{subHeader}</h2>
 			{showImages && (

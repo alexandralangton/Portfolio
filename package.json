@@ -2,18 +2,17 @@
   "name": "alexandra_langton_portfolio",
   "version": "1.0.0",
   "description": "A virtual resume of my projects and roles",
-  "main": "app/index.js",
+  "main": "public/index.html",
   "scripts": {
     "start-dev": "webpack -w & webpack serve",
     "start": "webpack-dev-server --open ",
     "build": "webpack --mode production",
-    "deploy": "aws s3 sync public/ s3://alangtonportfolio"
+    "deploy": "aws s3 cp public/bundle.js s3://alangtonportfolio"
   },
   "author": "Alexandra Langton",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "^8.2.2",

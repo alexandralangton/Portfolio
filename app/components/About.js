@@ -13,7 +13,7 @@ const About = () => {
 						className="flex-vertical about-pic"
 						id="pic-stripes"
 						data-aos="flip-left"
-						data-aos-delay="750"
+						data-aos-offset="300"
 						data-aos-duration="1000"
 					>
 						<img
@@ -26,7 +26,7 @@ const About = () => {
 				<div
 					id="bio"
 					data-aos="fade-up"
-					data-aos-delay="750"
+					data-aos-offset="300"
 					data-aos-duration="1000"
 				>
 					<h1 className="right-align">ABOUT ME</h1>

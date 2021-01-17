@@ -18,25 +18,25 @@ import hww from '../media/hww.png';
 const experienceDetails = [
 	{
 		no: 1,
-		title: 'Teaching Fellow',
+		title: 'Software Engineering Fellow',
 		company: 'The Grace Hopper Program at Fullstack Academy',
 		location: 'New York, NY',
 		timeframe: '2020\u2013now',
 		overview:
 			'Worked as a mentor and teaching assistant for a cohort of Grace Hopper students.',
 		details:
-			"Providing one-on-one support and feedback on individual take-home coding assessments. Assisting students with workshops and coding problems. Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students",
+			"Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students in JavaScript and Python. Providing one-on-one support and feedback on individual take-home coding assessments with live-coding explanations. Assisting students with workshops and coding problems",
 		logo: GH,
 		job: true,
 	},
 	{
 		no: 2,
-		title: 'Software Developer in Training',
+		title: 'Software Engineer in Training',
 		company: 'The Grace Hopper Program at Fullstack Academy',
 		location: 'New York, NY',
 		timeframe: '2020\u20132020',
 		overview:
-			"Attended The Grace Hopper Program's immersive 18-week coding bootcamp, focused on the fundamentals of full stack web development.",
+			"Attended The Grace Hopper Program's immersive 18-week coding bootcamp, focused on the fundamentals of fullstack web development.",
 		details:
 			'Earned a certificate of completion for successfully completing 553 hours of software development training',
 		logo: GH,
