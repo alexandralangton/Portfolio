@@ -25,7 +25,7 @@ const experienceDetails = [
 		overview:
 			'Worked as a mentor and teaching assistant for a cohort of Grace Hopper students.',
 		details:
-			"Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students in JavaScript and Python. Providing one-on-one support and feedback on individual take-home coding assessments with live-coding explanations. Assisting students with workshops and coding problems",
+			"Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students in JavaScript and Python. Providing one-on-one support and feedback on individual take-home coding assessments, giving live-coding explanations. Assisting students with workshops and coding problems",
 		logo: GH,
 		job: true,
 	},
@@ -51,7 +51,7 @@ const experienceDetails = [
 		overview:
 			'Acted as the most senior member of the New York project management team, producing global marketing campaigns and training material. Allocated work and divided project tasks amongst the team whilst tracking overall progress and profit margins and ensuring a high quality of deliverables.',
 		details:
-			"Managed localization of an extensive training program into 12 languages, including hours of videos with voice over requirements featuring 13 characters, HTML-based eLearning materials and multiple InDesign files comrpising of 100's of pages. Led localization and testing of HTML content with localization engineers and developer teams based in London as well as a global network of linguists, for languages including Arabic, Thai, Japanese and Russian. Led consultancy projects for design teams on potential risks and issues when globalizing proposed new taglines and marketing campaigns for over 20 markets. Produced all quotes and proposals for large-scale campaigns within the team, proactively finding cost saving solutions, multi-tiered approaches and accelerated timelines to meet clients' needs",
+			"Managed localization of an extensive training program into 12 languages, including hours of videos with voice over requirements featuring 13 characters, HTML and JavaScript-based eLearning materials and multiple InDesign files comprising of 100's of pages. Led localization and testing of online content with localization engineers and developer teams based in London as well as a global network of linguists, for languages including Arabic, Thai, Japanese and Russian. Led consultancy projects for design teams on potential risks and issues when localizing proposed new taglines and marketing campaigns, providing targeted feedback for over 20 markets. Produced all quotes and proposals for large-scale campaigns within the team, proactively finding cost saving solutions, multi-tiered approaches and accelerated timelines to meet clients' needs",
 		logo:
 			'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
 		job: true,
@@ -76,7 +76,7 @@ const experienceDetails = [
 		location: 'New York, NY',
 		timeframe: '2016-now',
 		overview:
-			'Localized websites and client-facing copy from US to UK English and carried out review of original copy for linguistic and factual accuracy, suggesting stylistic improvements.',
+			'Localized websites and client-facing copy from US to UK English and carried out copy review for linguistic and factual accuracy, suggesting stylistic improvements.',
 		details:
 			"Reviewed content from a range of clients, including in-house material at the CEO's request. Carried out review of in-layout copy and ensured visual consistency prior to publication",
 		logo:
