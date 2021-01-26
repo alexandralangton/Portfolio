@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useLayoutEffect, useRef } from 'react';
-import woods from '../media/woods.jpg';
 import { Link } from 'react-scroll';
-import whiteChevron from '../media/whiteChevron.png';
+import woods from '../media/images/woods.jpg';
+import woods2 from '../media/images/woods2.jpg';
+import whiteChevron from '../media/images/whiteChevron.png';
 import Contact from './Contact';
 
 let subHeaders = [
@@ -15,6 +16,8 @@ let idx = 0;
 
 const Cover = (props) => {
 	const [name, showName] = useState(false);
+	const [innerHeight, setInnerHeight] = useState(window.innerHeight);
+	const [outerHeight] = useState(window.outerHeight);
 	const [subHeader, setSubHeader] = useState('');
 	const [showArrow, revealArrow] = useState(true);
 	const [showImages, revealImages] = useState(false);
@@ -33,6 +36,14 @@ const Cover = (props) => {
 		console.log(
 			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles you have. My email is alexandra.langton@outlook.com. Thanks!`
 		);
+
+		const handleResize = () => {
+			if (window.outerHeight !== outerHeight) {
+				setInnerHeight(window.innerHeight);
+			}
+		};
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
 	}, []);
 
 	useLayoutEffect(() => {
@@ -49,11 +60,12 @@ const Cover = (props) => {
 	}, []);
 
 	return (
-		<section id="cover-container" ref={container} style={{ height: '100vh' }}>
+		<section id="cover-container" ref={container}>
 			<img
+				srcSet={`${woods2} 300w, ${woods} 600w`}
 				src={woods}
 				id="cover-pic"
-				alt="Alexandra walking in the woods"
+				style={{ height: innerHeight }}
 				onLoad={() => {
 					showName(true);
 					textReel();

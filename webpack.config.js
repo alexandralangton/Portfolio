@@ -1,9 +1,18 @@
 const path = require('path');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
 	entry: './app/index.js',
 	mode: 'development',
 	devtool: 'inline-source-map',
+	plugins: [
+		new CompressionPlugin({
+			algorithm: 'gzip',
+			test: /\.js$|\.css$|\.html$/,
+			threshold: 10240,
+			minRatio: 0.8,
+		}),
+	],
 	devServer: {
 		contentBase: path.join(__dirname, 'public'),
 		port: 8000,
@@ -16,12 +25,10 @@ module.exports = {
 			{
 				test: /\.jsx?$/,
 				exclude: /node_modules/,
-				use: {
-					loader: 'babel-loader',
-				},
+				loader: 'babel-loader',
 			},
 			{
-				test: /\.(png|jpe?g|gif|svg)$/i,
+				test: /\.(png|jpe?g|gif|svg|webp)$/i,
 				type: 'asset/resource',
 			},
 			{
@@ -30,8 +37,9 @@ module.exports = {
 			},
 			{
 				test: /\.mp4$/i,
-				use: {
-					loader: 'file-loader',
+				loader: 'file-loader',
+				options: {
+					name: 'media/[hash].[ext]',
 				},
 			},
 		],
@@ -39,5 +47,6 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, 'public'),
 		filename: 'bundle.js',
+		assetModuleFilename: 'media/[hash][ext]',
 	},
 };

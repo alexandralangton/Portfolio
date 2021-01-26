@@ -1,5 +1,5 @@
 import React from 'react';
-import al from '../media/al.jpeg';
+import al from '../media/images/al.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({ once: true });
@@ -16,11 +16,7 @@ const About = () => {
 						data-aos-offset="300"
 						data-aos-duration="1000"
 					>
-						<img
-							src={al}
-							alt="A picture of Alexandra Langton in Seattle"
-							id="profile-pic"
-						/>
+						<img src={al} alt="Alexandra in Seattle" id="profile-pic" />
 					</div>
 				</div>
 				<div

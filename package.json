@@ -4,10 +4,13 @@
   "description": "A virtual resume of my projects and roles",
   "main": "public/index.html",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "start-dev": "webpack -w & webpack serve",
-    "start": "webpack-dev-server --open ",
     "build": "webpack --mode production",
-    "deploy": "aws s3 cp public/bundle.js s3://alangtonportfolio"
+    "build-dev": "webpack",
+    "deploy": "aws s3 sync public s3://alangtonportfolio",
+    "deploy-single": "aws s3 cp public/bundle.js s3://alangtonportfolio",
+    "deploy-bundle": "aws s3 cp public/bundle.js.gz s3://alangtonportfolio --content-type 'text/javascript' --content-encoding 'gzip'"
   },
   "author": "Alexandra Langton",
   "license": "ISC",
@@ -16,8 +19,12 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "^8.2.2",
+    "compression-webpack-plugin": "^7.1.2",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
+    "imagemin-webp": "^6.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
     "style-loader": "^2.0.0",
     "webpack": "^5.10.0",
     "webpack-cli": "^4.2.0",

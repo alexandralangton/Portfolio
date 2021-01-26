@@ -1,20 +1,23 @@
-import GS from '../media/GS.png';
-import chromeExtensionDemo from '../media/chromeExtensionDemo.mp4';
-import ab from '../media/AB.png';
-import site from '../media/site.png';
+import GS from '../media/images/GS.png';
+import GS2 from '../media/images/GS2.png';
+import chromeExtensionDemo from '../media/videos/chromeExtensionDemo.mp4';
+import ab from '../media/images/AB.png';
+import ab2 from '../media/images/AB2.png';
+import site from '../media/images/site.png';
 
 const projectList = [
 	{
 		projectNo: 1,
 		name: 'accountabee',
 		img: ab,
+		imgSmall: ab2,
 		link1: 'video demo',
 		link1URL:
 			'https://www.youtube.com/watch?v=FPdc90aeMHg&list=PLx0iOsdUOUmlk2heasTPCfEM8cj3BD8VS&index=5',
 		link2: 'github',
 		link2URL: 'https://github.com/AccountaBee/AccountaBee_Frontend',
 		description:
-			'AccountaBee is a social goal-tracking mobile app, which lets users set weekly goals with their friends and keep each other socially accountable. AccountaBee was developed as part of a team over a two week sprint, and was an enjoyable way to explore the technical challenges of creating a social network from an organizational perspective. \nI developed features including the goal setting pages and goals dashboard, along with the app navigational set up.',
+			'AccountaBee is a social goal-tracking mobile app, which lets users set weekly goals with their friends and keep each other socially accountable. AccountaBee was developed as part of a team over a two week sprint, and was an enjoyable way to explore the technical challenges of creating a social network from an organizational perspective. \nI developed features including the goal setting pages and animated goals dashboard, along with the app navigational set up.',
 		techStack:
 			'JavaScript | React Native | Redux | Node.js | Expo | Firebase | Express | PostgreSQL | Sequelize | Heroku',
 	},
@@ -34,6 +37,7 @@ const projectList = [
 		projectNo: 3,
 		name: 'gray stopper',
 		img: GS,
+		imgSmall: GS2,
 		link1: 'visit',
 		link1URL: 'https://gray-stopper.herokuapp.com/',
 		link2: 'github',

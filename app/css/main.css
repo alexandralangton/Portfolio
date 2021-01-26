@@ -124,7 +124,6 @@ nav {
 
 #cover-pic {
     width: 100vw;
-    height: 100vh;
     object-fit: cover;
     position: relative;
 }
@@ -281,8 +280,6 @@ align-items: center;
 #tech-pic {
     min-width: 50vw;
     max-width: 1000px;
-    min-height: 48rem;
-    background: url(../media/Bridge.jpeg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

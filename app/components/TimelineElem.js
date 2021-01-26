@@ -30,7 +30,7 @@ const TimelineElem = (props) => {
 						<p className="exp-title">{title.toUpperCase()}</p>
 						<p className="exp-subhead city">{location}</p>
 					</div>
-					<img src={logo} className="exp-logo" />
+					<img src={logo} className="exp-logo" alt={`${company} logo`} />
 				</div>
 				<div className="exp-details-button">
 					<p className="exp-subhead company">{company}</p>

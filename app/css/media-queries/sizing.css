@@ -1,15 +1,15 @@
 
 /* BROWSER TARGETED MEDIA QUERIES */
 
-@media screen and (min-width: 1645px) {
+@media screen and (min-width: 1317px) {
     .project-link {
         margin: 0vh 3vw;
     }
 }
 
-@media screen and (max-width: 1644px) {
+@media screen and (max-width: 1316px) {
     .project-link {
-        margin: 0vh 3vw;
+        margin: 0vh 5vw;
     }
 }
 
@@ -127,6 +127,11 @@
         width: 50%;
     }
 
+    #tech-pic {
+        height: 100%;
+        min-height: 48rem;
+    }
+
     .top {
         margin-top: 5%;
     }
@@ -135,7 +140,7 @@
 @media screen and (max-width: 890px) {
     #tech-pic {
        width: 100%;
-       height: 50%;
+       height: 60vh;
     }
 
     .inline-flex {
@@ -265,7 +270,13 @@
     }
 
     .project-img {
-        max-width: 90%;
+        width: 75vw;
+        height: auto;
+    }
+
+    #accountabee-image {
+        height: 40vh;
+        width: auto;
     }
 
     .tech-col {
@@ -332,6 +343,10 @@
         margin-left: 1rem;
     }
 
+    #tech-pic {
+        background: url(../../media/images/Bridge.jpeg) no-repeat center center scroll;
+    }
+
     #pic-stripes {
         background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
         background-size: 10px 10px;
@@ -385,7 +400,7 @@
     }
 
     .tech-p {
-        margin: 0 7% 0 7%;
+        margin: 0 7% 6% 7%;
     }
 
     .tech-subhead {
@@ -399,6 +414,10 @@
 
     .tech-ul li {
         min-width: 5rem;
+    }
+
+    #tech-pic {
+        background: url(../../media/images/Bridge2.jpeg) no-repeat center center scroll;
     }
 }
 

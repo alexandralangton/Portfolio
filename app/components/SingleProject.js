@@ -7,6 +7,7 @@ const SingleProject = (props) => {
 	const {
 		name,
 		img,
+		imgSmall,
 		description,
 		techStack,
 		link1,
@@ -32,16 +33,18 @@ const SingleProject = (props) => {
 					</video>
 				) : (
 					<img
+						srcSet={`${imgSmall ? imgSmall : img} 300w, ${img} 600w`}
 						src={img}
 						className="project-img"
 						alt={`A screenshot of ${name}`}
 						data-aos="zoom-in-up"
 						data-aos-duration="1000"
+						id={`${name}-image`}
 					/>
 				)}
 			</div>
 			<div className="project-text white">
-				<h4 className="project-title">{name.toUpperCase()}</h4>
+				<h2 className="project-title">{name.toUpperCase()}</h2>
 				{description.split('\n').map((para, idx) => (
 					<p className="project-description" key={idx}>
 						{para}

@@ -1,6 +1,6 @@
-import leeds from '../media/leeds.svg';
-import GH from '../media/GH.jpg';
-import hww from '../media/hww.png';
+import leeds from '../media/images/leeds.svg';
+import GH from '../media/images/GH.jpg';
+import hww from '../media/images/hww.png';
 
 // Blank Experience Object Template:
 // {
@@ -92,7 +92,7 @@ const experienceDetails = [
 		overview:
 			'Coordinated localization and implementation of marketing campaigns and collateral across all channels for multimillion-dollar client accounts. Oversaw campaign work across a global team of 10+ people as well as multiple studio teams, acting as a central point of contact for clients and agencies.',
 		details:
-			"Created and implemented quoting templates across multiple client accounts, standardizing the process and introducing time efficiencies. Scoped and quoted new campaigns and projects of up to $250,000 each month, ensuring adherence to budget at all stages of projects. Trained over 15 junior team members, with a particular emphasis on quality control. Delegated and oversaw junior team members’ work, acted as an escalation point for any issues and ensured all deadlines were met with a high standard of deliverables. Oversaw the set up and maintenance of an online client content management site containing over 15,000 assets; dealt with any client queries and generated reports on site usage. Acted as the UK English brand ambassador for a FTSE 100 company at the client's request due to proven subject matter expertise ",
+			"Created and implemented quoting templates across multiple client accounts, standardizing the process and introducing time efficiencies. Scoped and quoted new campaigns and projects of up to $250,000 each month, ensuring adherence to budget at all stages of projects. Trained over 15 junior team members, with a particular emphasis on quality control. Delegated and oversaw junior team members’ work, acted as an escalation point for any issues and ensured all deadlines were met with a high standard of deliverables. Oversaw the set up and maintenance of an online client content management site containing over 15,000 assets; dealt with any client queries and generated reports on site usage. Acted as the UK English brand ambassador for a FTSE 100 company at the client's request due to proven subject matter expertise",
 		logo:
 			'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
 		job: true,
