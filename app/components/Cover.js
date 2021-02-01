@@ -6,11 +6,11 @@ import whiteChevron from '../media/images/whiteChevron.png';
 import Contact from './Contact';
 
 let subHeaders = [
+	'SOFTWARE DEVELOPER',
 	'PROJECT MANAGER',
 	'LINGUIST',
 	'OXFORD COMMA FAN',
 	'LIFE-LONG LEARNER',
-	'SOFTWARE DEVELOPER',
 ];
 let idx = 0;
 
@@ -28,7 +28,7 @@ const Cover = (props) => {
 			setSubHeader(subHeaders[idx]);
 			++idx;
 		}, 1500);
-		setTimeout(() => clearInterval(rotateText), 7510);
+		setTimeout(() => clearInterval(rotateText), 8000);
 		setTimeout(() => revealImages(true), 9000);
 	};
 
@@ -53,6 +53,7 @@ const Cover = (props) => {
 			if (bottomPosition * 2 < scrollPosition) {
 				props.setScroll(true);
 				revealArrow(false);
+				setSubHeader(subHeaders[0]);
 			}
 		};
 		window.addEventListener('scroll', onScroll);
@@ -93,6 +94,7 @@ const Cover = (props) => {
 								onClick={() => {
 									props.setScroll(true);
 									revealArrow(false);
+									setTimeout(() => setSubHeader(subHeaders[0]), 750);
 								}}
 								activeClass="active"
 							>
