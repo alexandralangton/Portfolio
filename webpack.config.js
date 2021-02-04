@@ -4,7 +4,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 module.exports = {
 	entry: './app/index.js',
 	mode: 'development',
-	devtool: 'inline-source-map',
+	devtool: 'hidden-source-map',
 	plugins: [
 		new CompressionPlugin({
 			algorithm: 'gzip',
