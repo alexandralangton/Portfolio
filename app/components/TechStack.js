@@ -25,6 +25,8 @@ const familiar = [
 	'Mocha',
 	'Chai',
 	'Jasmine',
+	'AWS S3',
+	'AWS CloudFront',
 ];
 const collabTools = [
 	'Jira',

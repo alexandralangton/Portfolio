@@ -5,6 +5,8 @@ import ab from '../media/images/AB.png';
 import ab2 from '../media/images/AB2.png';
 import site from '../media/images/site.png';
 
+// \nCurrently under development\u2014check out GitHub to see the latest enhancements!
+
 const projectList = [
 	{
 		projectNo: 1,
@@ -29,7 +31,7 @@ const projectList = [
 		link1URL: 'https://github.com/alexandralangton/UKEN-Chrome-Extension',
 		link2: null,
 		link2URL: null,
-		description: `Inspired by my experiences as a British person navigating an American kitchen, this Google Chrome Extension translates websites from American into British English, checking a dictionary I compiled of over 400 terms and phrases and inserting conversion pop-ups for common measurements. \nCurrently under development\u2014check out GitHub to see the latest enhancements!`,
+		description: `Inspired by my experiences as a British person navigating an American kitchen, this Google Chrome Extension translates websites from American into British English, checking a dictionary I compiled of over 400 terms and phrases and inserting conversion pop-ups for common measurements.`,
 		techStack:
 			'JavaScript, with some support from the Oxford English Dictionary',
 	},
@@ -45,7 +47,7 @@ const projectList = [
 		description:
 			'A mock ecommerce website selling hair products, created by myself and two other pun-loving developers as part of The Grace Hopper Program. Beneath the whimsical images and humorous product categories lies a fully functional site, featuring Etsy-inspired stock checks when a user completes a purchase, and a secured admin dashboard to adjust stock levels, add new products, and manage site users.\nI tackled vertical slices of the site including the shopping cart, home page and the secured admin dashboard.',
 		techStack:
-			'JavaScript | React | Redux | Expo | Firebase | Node.js | Express | PostgreSQL | Sequelize | Heroku',
+			'JavaScript | React | Redux | Node.js | Express | PostgreSQL | Sequelize | Heroku',
 	},
 	{
 		projectNo: 4,
@@ -56,7 +58,8 @@ const projectList = [
 		link2: null,
 		link2URL: null,
 		description: `Meta, I know. This portfolio was designed and built from scratch by myself, with no boilerplate starter code or design templates used. The site was built with React, using functional components and hooks.\nIf you'd like to have a look at the source code, you can see this on my GitHub. I would welcome any feedback!`,
-		techStack: 'JavaScript | React | HTML | CSS | Webpack | AWS S3',
+		techStack:
+			'JavaScript | React | HTML | CSS | Webpack | AWS S3 | AWS CloudFront',
 	},
 ];
 
