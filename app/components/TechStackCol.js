@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Children } from 'react';
 
 const TechStackCol = ({ technology }) => {
 	return (
 		<div className="tech-col">
 			<ul className="tech-ul">
-				{technology.map((tech, idx) => {
-					return <li key={idx}>{tech}</li>;
-				})}
+				{Children.map(technology, (tech) => (
+					<li>{tech}</li>
+				))}
 			</ul>
 		</div>
 	);

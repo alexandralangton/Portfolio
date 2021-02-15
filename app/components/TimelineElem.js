@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Children } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faChevronDown,
@@ -50,8 +50,8 @@ const TimelineElem = (props) => {
 					<>
 						<p className="exp-subhead">{overview}</p>
 						<ul className="exp-ul">
-							{details.split('.').map((bullet, idx) => {
-								return <li key={idx}>{bullet}</li>;
+							{details.split('.').Children.map(details, (bullet) => {
+								return <li>{bullet}</li>;
 							})}
 						</ul>
 					</>

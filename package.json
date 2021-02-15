@@ -8,7 +8,7 @@
     "start-dev": "webpack -w & webpack serve",
     "build": "webpack --mode production",
     "build-dev": "webpack",
-    "deploy": "aws s3 sync public s3://alangtonportfolio --exclude bundle.js.map",
+    "deploy": "aws s3 sync public s3://alangtonportfolio --exclude bundle.js.gz",
     "deploy-single": "aws s3 cp public/index.html s3://alangtonportfolio",
     "deploy-bundle": "aws s3 cp public/bundle.js.gz s3://alangtonportfolio --content-type 'text/javascript' --content-encoding 'gzip'"
   },

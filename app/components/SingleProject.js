@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({ once: true });
@@ -8,14 +8,13 @@ const SingleProject = (props) => {
 		name,
 		img,
 		imgSmall,
-		description,
 		techStack,
 		link1,
 		link2,
 		link1URL,
 		link2URL,
 	} = props.info;
-
+	let description = props.info.description.split('\n');
 	return (
 		<div className="project flex">
 			<div className="project-img-box">
@@ -45,11 +44,9 @@ const SingleProject = (props) => {
 			</div>
 			<div className="project-text white">
 				<h2 className="project-title">{name.toUpperCase()}</h2>
-				{description.split('\n').map((para, idx) => (
-					<p className="project-description" key={idx}>
-						{para}
-					</p>
-				))}
+				{Children.map(description, (para) => {
+					return <p className="project-description">{para}</p>;
+				})}
 				<p className="tech">
 					<span className="tech-stack">
 						<b>TECH STACK: </b>
