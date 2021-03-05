@@ -15,13 +15,13 @@ const Intro = () => {
 				</div>
 				<div id="intro-blurb">
 					<p className="max-size">
-						A current Teaching Fellow at and recent graduate of{' '}
+						A recent Teaching Fellow at and graduate of{' '}
 						<b>
 							<a href="https://www.gracehopper.com/">
 								The Grace Hopper Program
 							</a>
 						</b>{' '}
-						at Fullstack Academy&mdash;a fast-paced 18 week immersive coding
+						at Fullstack Academy&mdash;a fast-paced 17 week immersive coding
 						bootcamp where I learned the fundamentals of fullstack web
 						development, focusing on <b>PostgreSQL</b>, <b>Express</b>,{' '}
 						<b>React</b>, <b>Redux</b>, and <b>Node.js</b>.

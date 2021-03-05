@@ -40,8 +40,8 @@ const About = () => {
 						Originally hailing from England, I moved to New York four years ago.
 						When I'm not coding you'll find me riding my bicycle around Prospect
 						Park, at the climbing wall working on my fear of heights and hoping
-						to one day conquer lead climbing, or just curled up at home with my
-						cat and a hot chocolate reading a book.
+						to one day conquer lead climbing, or at home with my cat reading a
+						book.
 					</p>
 				</div>
 			</div>

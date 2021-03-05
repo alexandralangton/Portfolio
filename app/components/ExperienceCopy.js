@@ -21,7 +21,7 @@ const experienceDetails = [
 		title: 'Software Engineering Fellow',
 		company: 'The Grace Hopper Program at Fullstack Academy',
 		location: 'New York, NY',
-		timeframe: '2020\u2013now',
+		timeframe: '2020\u20132021',
 		overview:
 			'Worked as a mentor and teaching assistant for a cohort of Grace Hopper students.',
 		details:
@@ -36,7 +36,7 @@ const experienceDetails = [
 		location: 'New York, NY',
 		timeframe: '2020\u20132020',
 		overview:
-			"Attended The Grace Hopper Program's immersive 18-week coding bootcamp, focused on the fundamentals of fullstack web development.",
+			"Attended The Grace Hopper Program's immersive 17-week coding bootcamp, focused on the fundamentals of fullstack web development.",
 		details:
 			'Earned a certificate of completion for successfully completing 553 hours of software development training',
 		logo: GH,
@@ -74,7 +74,7 @@ const experienceDetails = [
 		title: 'Freelance English Editor',
 		company: 'Freedman International',
 		location: 'New York, NY',
-		timeframe: '2016-now',
+		timeframe: '2016-2020',
 		overview:
 			'Localized websites and client-facing copy from US to UK English and carried out copy review for linguistic and factual accuracy, suggesting stylistic improvements.',
 		details:
