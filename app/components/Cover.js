@@ -53,7 +53,7 @@ const Cover = (props) => {
 			if (bottomPosition * 2 < scrollPosition) {
 				props.setScroll(true);
 				revealArrow(false);
-				setSubHeader(subHeaders[0]);
+				setSubHeader(subHeaders[0].toUpperCase());
 			}
 		};
 		window.addEventListener('scroll', onScroll);
