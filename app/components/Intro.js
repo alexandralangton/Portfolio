@@ -9,8 +9,8 @@ const Intro = () => {
 			<div>
 				<div id="intro-cont">
 					<h2 id="intro-head">
-						Hello! I'm Alexandra Langton, a fullstack software developer based
-						in New&nbsp;York&nbsp;City.
+						Hello! I'm Alexandra Langton, a fullstack software engineer based in
+						New&nbsp;York&nbsp;City.
 					</h2>
 				</div>
 				<div id="intro-blurb">

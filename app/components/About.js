@@ -29,15 +29,14 @@ const About = () => {
 					<p>
 						After studying languages at university I worked for several years as
 						a project manager, working on international adaptations and rollouts
-						of multi-lingual marketing campaigns&mdash;most recently including a
-						series of HTML and JavaScript-based projects. As I worked with
-						engineers on these adaptations, I came to the conclusion I wanted to
-						work on this type of project in a more hands on way, and dedicate my
-						creative problem-solving skills and attention to detail to
-						personally building great content in code.
+						of multi-lingual marketing campaigns. As I worked with engineers on
+						these adaptations, I came to the conclusion I wanted to work on this
+						type of project in a more hands on way, and dedicate my creative
+						problem-solving skills and attention to detail to personally
+						building great content in code.
 					</p>
 					<p>
-						Originally hailing from England, I moved to New York four years ago.
+						Originally hailing from England, I moved to New York five years ago.
 						When I'm not coding you'll find me riding my bicycle around Prospect
 						Park, at the climbing wall working on my fear of heights and hoping
 						to one day conquer lead climbing, or at home with my cat reading a

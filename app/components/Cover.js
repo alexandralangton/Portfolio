@@ -6,11 +6,11 @@ import whiteChevron from '../media/images/whiteChevron.png';
 import Contact from './Contact';
 
 let subHeaders = [
-	'SOFTWARE DEVELOPER',
-	'PROJECT MANAGER',
-	'LINGUIST',
-	'OXFORD COMMA FAN',
-	'LIFE-LONG LEARNER',
+	'software engineer',
+	'project manager',
+	'linguist',
+	'oxford comma fan',
+	'life-long learner',
 ];
 let idx = 0;
 
@@ -25,7 +25,7 @@ const Cover = (props) => {
 
 	const textReel = () => {
 		const rotateText = setInterval(() => {
-			setSubHeader(subHeaders[idx]);
+			setSubHeader(subHeaders[idx].toUpperCase());
 			++idx;
 		}, 1500);
 		setTimeout(() => clearInterval(rotateText), 8000);
@@ -34,7 +34,7 @@ const Cover = (props) => {
 
 	useEffect(() => {
 		console.log(
-			`Hello! If you're looking for a software developer, I'd love to learn more about any available roles you have. My email is alexandra.langton@outlook.com. Thanks!`
+			`Hello! If you're looking for a software engineer, I'd love to learn more about any available roles you have. My email is alexandra.langton@outlook.com. Thanks!`
 		);
 
 		const handleResize = () => {

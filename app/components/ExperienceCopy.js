@@ -1,6 +1,7 @@
 import leeds from '../media/images/leeds.svg';
 import GH from '../media/images/GH.jpg';
 import hww from '../media/images/hww.png';
+import bluecore from '../media/images/bluecore.png';
 
 // Blank Experience Object Template:
 // {
@@ -18,6 +19,19 @@ import hww from '../media/images/hww.png';
 const experienceDetails = [
 	{
 		no: 1,
+		title: 'Forward Deployed Engineer',
+		company: 'Bluecore',
+		location: 'New York, NY',
+		timeframe: '2021\u2013now',
+		overview:
+			'Working with brands to set up and enhance their technical integration with Bluecore, solving unique technical challenges to help them maximize their marketing programs.',
+		details:
+			'Writing and enhancing JavaScript integrations that run on client websites. Configuring and manipulating data streams between Bluecore and clients across channels such as websites, SFTPs and Google Cloud Functions. Scoping and implementing client requests, problem solving to allow for new ways of using the Bluecore platform. Working directly with non-technical and technical client teams to empower and expand their use of the Bluecore platform. Working on internal tooling and pilot programs to test and expand the platform capabilities',
+		logo: bluecore,
+		job: true,
+	},
+	{
+		no: 2,
 		title: 'Software Engineering Fellow',
 		company: 'The Grace Hopper Program at Fullstack Academy',
 		location: 'New York, NY',
@@ -30,7 +44,7 @@ const experienceDetails = [
 		job: true,
 	},
 	{
-		no: 2,
+		no: 3,
 		title: 'Software Engineer in Training',
 		company: 'The Grace Hopper Program at Fullstack Academy',
 		location: 'New York, NY',
@@ -43,7 +57,7 @@ const experienceDetails = [
 		job: false,
 	},
 	{
-		no: 3,
+		no: 4,
 		title: 'Project Manager',
 		company: 'Freedman International',
 		location: 'New York, NY',
@@ -57,7 +71,7 @@ const experienceDetails = [
 		job: true,
 	},
 	{
-		no: 4,
+		no: 5,
 		title: 'Transcreation Account Manager',
 		company: 'Hogarth Worldwide',
 		location: 'New York, NY',
@@ -69,20 +83,21 @@ const experienceDetails = [
 		logo: hww,
 		job: true,
 	},
-	{
-		no: 5,
-		title: 'Freelance English Editor',
-		company: 'Freedman International',
-		location: 'New York, NY',
-		timeframe: '2016-2020',
-		overview:
-			'Localized websites and client-facing copy from US to UK English and carried out copy review for linguistic and factual accuracy, suggesting stylistic improvements.',
-		details:
-			"Reviewed content from a range of clients, including in-house material at the CEO's request. Carried out review of in-layout copy and ensured visual consistency prior to publication",
-		logo:
-			'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
-		job: true,
-	},
+	// not really relevant
+	// {
+	// 	no: 6,
+	// 	title: 'Freelance English Editor',
+	// 	company: 'Freedman International',
+	// 	location: 'New York, NY',
+	// 	timeframe: '2016-2020',
+	// 	overview:
+	// 		'Localized websites and client-facing copy from US to UK English and carried out copy review for linguistic and factual accuracy, suggesting stylistic improvements.',
+	// 	details:
+	// 		"Reviewed content from a range of clients, including in-house material at the CEO's request. Carried out review of in-layout copy and ensured visual consistency prior to publication",
+	// 	logo:
+	// 		'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
+	// 	job: true,
+	// },
 	{
 		no: 6,
 		title: 'Account Team (Various Roles)',
