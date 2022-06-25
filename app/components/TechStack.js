@@ -1,42 +1,32 @@
 import React from 'react';
-import TechStackSection from './TechStackSection';
+import TechStackCol from './TechStackCol';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({ once: true });
 
-const proficient = [
+const tech = [
 	'JavaScript',
+	'Python',
+	'SQL',
+	'Google Cloud Platform',
+	'Docker',
 	'Node.js',
 	'Express',
 	'PostgreSQL',
 	'Webpack',
+	'Babel',
+	'Puppeteer',
+	'AWS S3',
+	'AWS CloudFront',
+	'React Native',
 	'React',
 	'Redux',
 	'HTML',
 	'CSS',
-	'Git & GitHub',
-];
-const familiar = [
-	'SQL',
-	'Firebase',
-	'React Native',
-	'Babel',
 	'Mocha',
 	'Chai',
 	'Jasmine',
-	'Heroku',
-	'AWS S3',
-	'AWS CloudFront',
-];
-const collabTools = [
-	'Jira',
-	'Smartsheet',
-	'GitHub Projects',
-	'Trello',
-	'Basecamp',
-	'ProofHQ',
-	'Slack',
-	'Microsoft Teams',
+	'Git and GitHub',
 ];
 
 const TechStack = () => {
@@ -52,12 +42,12 @@ const TechStack = () => {
 					>
 						<h1 id="tech-head">TECH STACK</h1>
 						<p className="tech-p">
-							These are the technologies and tools I know and love as a
-							developer and a project manager:
+							The technologies and tools I know and love:
 						</p>
-						<TechStackSection name="proficient" tech={proficient} />
-						<TechStackSection name="familiar" tech={familiar} />
-						<TechStackSection name="collaborative tools" tech={collabTools} />
+						<div className="tech-flex">
+							<TechStackCol technology={tech.slice(0, tech.length / 2)} />
+							<TechStackCol technology={tech.slice(tech.length / 2)} />
+						</div>
 					</div>
 					<div id="tech-pic" />
 				</div>

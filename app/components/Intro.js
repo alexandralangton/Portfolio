@@ -9,27 +9,19 @@ const Intro = () => {
 			<div>
 				<div id="intro-cont">
 					<h2 id="intro-head">
-						Hello! I'm Alexandra Langton, a fullstack software developer based
-						in New&nbsp;York&nbsp;City.
+						Hello! I'm Alexandra Langton, a fullstack software engineer based in
+						New&nbsp;York&nbsp;City.
 					</h2>
 				</div>
 				<div id="intro-blurb">
 					<p className="max-size">
-						A recent Teaching Fellow at and graduate of{' '}
-						<b>
-							<a href="https://www.gracehopper.com/">
-								The Grace Hopper Program
-							</a>
-						</b>{' '}
-						at Fullstack Academy&mdash;a fast-paced 17 week immersive coding
-						bootcamp where I learned the fundamentals of fullstack web
-						development, focusing on <b>PostgreSQL</b>, <b>Express</b>,{' '}
-						<b>React</b>, <b>Redux</b>, and <b>Node.js</b>.
-					</p>
-					<p className="max-size">
-						I'm currently looking for a full time role as a developer. Until
-						then I will keep doing what I love&mdash;writing well organized,
-						clean code that solves real world problems.
+						I've spent my career in the marketing industry, first as an
+						experienced international project manager, now working as a software
+						engineer in MarTech. I love creatively solving complex technical
+						challenges, learning new technologies, and helping my clients and
+						colleagues succeed. I bring a high level of attention to detail to
+						all that I do, as well as a belief that if something is worth doing,
+						it's worth excelling at.
 					</p>
 				</div>
 				<div className="flex">
