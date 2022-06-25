@@ -5,8 +5,6 @@ import ab from '../media/images/AB.png';
 import ab2 from '../media/images/AB2.png';
 import site from '../media/images/site.png';
 
-// \nCurrently under development\u2014check out GitHub to see the latest enhancements!
-
 const projectList = [
 	{
 		projectNo: 1,

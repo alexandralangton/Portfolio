@@ -59,6 +59,11 @@
     z-index: 2;
 }
 
+li {
+    list-style-type: square;
+    line-height: 1.5rem;
+}
+
 .green-text {
     color: #273C2C;
 }

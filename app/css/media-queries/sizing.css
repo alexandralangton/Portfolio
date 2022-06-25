@@ -129,7 +129,7 @@
 
     #tech-pic {
         height: 100%;
-        min-height: 50rem;
+        min-height: 48rem;
     }
 
     .top {
@@ -140,7 +140,7 @@
 @media screen and (max-width: 890px) {
     #tech-pic {
        width: 100%;
-       height: 60vh;
+       height: 62vh;
     }
 
     .inline-flex {
@@ -165,6 +165,7 @@
     }
 
     .tech-flex {
+        justify-content: normal;
         margin-bottom: 1rem;
     }
 
@@ -173,7 +174,7 @@
     }
 
     .border {
-        width: 100%;
+        width: 100vw;
     }
 }
 
@@ -232,7 +233,7 @@
 
 
     .tech-flex {
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .project-img-box {
@@ -339,9 +340,9 @@
         height: 4rem;
     }
 
-    .tech-col {
+    /* .tech-col {
         margin-left: 1rem;
-    }
+    } */
 
     #tech-pic {
         background: url(../../media/images/Bridge.jpeg) no-repeat center center scroll;
@@ -409,7 +410,7 @@
     }
 
     .tech-flex {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .tech-ul li {

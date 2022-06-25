@@ -48,8 +48,8 @@ const About = () => {
 						bootcamp where I learned the fundamentals of fullstack web
 						development, focusing on the PERN stack. I find programming every
 						bit as rewarding as I had hoped, and I love the problem solving and
-						creativity my work involves. I'm excited to see where my career in
-						this industry will take me and what I will build on the way.
+						creativity my work involves. I'm excited to see where my career as a
+						software engineer will take me and what I will build along the way.
 					</p>
 					<p>
 						Originally hailing from England, I moved to New York five years ago.

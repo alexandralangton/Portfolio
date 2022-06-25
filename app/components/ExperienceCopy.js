@@ -24,9 +24,9 @@ const experienceDetails = [
 		location: 'New York, NY',
 		timeframe: '2021\u2013now',
 		overview:
-			'Working with brands to set up and enhance their technical integration with Bluecore, solving unique technical challenges to help them maximize their marketing programs.',
+			'Supporting new and existing Bluecore customers by writing all code to maintain and launch their technical integration scripts. Solving unique technical problems and implementing solutions to help them maximize their marketing programs.',
 		details:
-			'Writing and enhancing JavaScript integrations that run on client websites. Configuring and manipulating data streams between Bluecore and clients across channels such as websites, SFTPs and Google Cloud Functions. Scoping and implementing client requests, problem solving to allow for new ways of using the Bluecore platform. Working directly with non-technical and technical client teams to empower and expand their use of the Bluecore platform. Working on internal tooling and pilot programs to test and expand the platform capabilities',
+			'Writing and enhancing JavaScript integrations that run on client websites. Configuring and manipulating data streams between Bluecore and clients across channels such as web scraping, SFTPs and Google Cloud Functions. Scoping and implementing client requests, problem solving to enable new ways of using the Bluecore platform. Working directly with non-technical and technical client teams to overcome technical challenges and expand their use of the Bluecore platform. Developing internal utils and working on pilot programs expand the platform capabilities',
 		logo: bluecore,
 		job: true,
 	},
@@ -83,21 +83,6 @@ const experienceDetails = [
 		logo: hww,
 		job: true,
 	},
-	// not really relevant
-	// {
-	// 	no: 6,
-	// 	title: 'Freelance English Editor',
-	// 	company: 'Freedman International',
-	// 	location: 'New York, NY',
-	// 	timeframe: '2016-2020',
-	// 	overview:
-	// 		'Localized websites and client-facing copy from US to UK English and carried out copy review for linguistic and factual accuracy, suggesting stylistic improvements.',
-	// 	details:
-	// 		"Reviewed content from a range of clients, including in-house material at the CEO's request. Carried out review of in-layout copy and ensured visual consistency prior to publication",
-	// 	logo:
-	// 		'https://media-exp1.licdn.com/dms/image/C560BAQEdEDxu3pJZ2Q/company-logo_200_200/0/1519856070064?e=2159024400&v=beta&t=WwV-LyXiPikc5bz18_pHmO3ApEnnNcP_HERcH3JtNes',
-	// 	job: true,
-	// },
 	{
 		no: 6,
 		title: 'Account Team (Various Roles)',

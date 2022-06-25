@@ -33,10 +33,6 @@ const Cover = (props) => {
 	};
 
 	useEffect(() => {
-		console.log(
-			`Hello! If you're looking for a software engineer, I'd love to learn more about any available roles you have. My email is alexandra.langton@outlook.com. Thanks!`
-		);
-
 		const handleResize = () => {
 			if (window.outerHeight !== outerHeight) {
 				setInnerHeight(window.innerHeight);

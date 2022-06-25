@@ -23,10 +23,6 @@ const Intro = () => {
 						all that I do, as well as a belief that if something is worth doing,
 						it's worth excelling at.
 					</p>
-					<p className="max-size">
-						I like my code the same way as my cocktails&mdash;DRY and
-						hand-crafted.
-					</p>
 				</div>
 				<div className="flex">
 					<div className="icon-flex">
