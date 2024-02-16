@@ -38,10 +38,8 @@ const projectList = [
 		name: 'gray stopper',
 		img: GS,
 		imgSmall: GS2,
-		link1: 'visit',
-		link1URL: 'https://gray-stopper.herokuapp.com/',
-		link2: 'github',
-		link2URL: 'https://github.com/Gray-Stopper/grace-shopper',
+		link1: 'github',
+		link1URL: 'https://github.com/Gray-Stopper/grace-shopper',
 		description:
 			'A mock ecommerce website selling hair products, created by myself and two other pun-loving developers as part of The Grace Hopper Program. Beneath the whimsical images and humorous product categories lies a fully functional site, featuring Etsy-inspired stock checks when a user completes a purchase, and a secured admin dashboard to adjust stock levels, add new products, and manage site users.\nI tackled vertical slices of the site including the shopping cart, home page and the secured admin dashboard.',
 		techStack:

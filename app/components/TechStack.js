@@ -9,6 +9,8 @@ const tech = [
 	'Python',
 	'SQL',
 	'Google Cloud Platform',
+	'AWS S3',
+	'AWS CloudFront',
 	'Docker',
 	'Node.js',
 	'Express',
@@ -16,17 +18,13 @@ const tech = [
 	'Webpack',
 	'Babel',
 	'Puppeteer',
-	'AWS S3',
-	'AWS CloudFront',
 	'React Native',
 	'React',
 	'Redux',
 	'HTML',
 	'CSS',
-	'Mocha',
-	'Chai',
+	'Jest',
 	'Jasmine',
-	'Git and GitHub',
 ];
 
 const TechStack = () => {
