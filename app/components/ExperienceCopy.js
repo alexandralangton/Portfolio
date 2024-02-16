@@ -24,9 +24,9 @@ const experienceDetails = [
 		location: 'New York, NY',
 		timeframe: '2021\u2013now',
 		overview:
-			'Supporting new and existing Bluecore customers by writing all code to maintain and launch their technical integration scripts. Solving unique technical problems and implementing solutions to help them maximize their marketing programs.',
+			"Supporting Bluecore's retail clients by writing code to manage bidirectional data transfer of customer activity and product information. Solving unique technical problems and implementing solutions to help clients maximize their marketing programs.",
 		details:
-			'Writing and enhancing JavaScript integrations that run on client websites. Configuring and manipulating data streams between Bluecore and clients across channels such as web scraping, SFTPs and Google Cloud Functions. Scoping and implementing client requests, problem solving to enable new ways of using the Bluecore platform. Working directly with non-technical and technical client teams to overcome technical challenges and expand their use of the Bluecore platform. Developing internal utils and working on pilot programs expand the platform capabilities',
+			'Writing and enhancing JavaScript integrations that run on client websites. Configuring and maintaining data streams between Bluecore and clients via integrated scripts, SFTP transfer and Google Cloud functions. Scoping and implementing client requests and problem solving to enable new ways of using the Bluecore platform. Working directly with non-technical and technical client teams to overcome technical challenges. Developing internal utils and working on internal pilot programs. Carrying out technical interviews with prospective new hires',
 		logo: bluecore,
 		job: true,
 	},
@@ -39,7 +39,7 @@ const experienceDetails = [
 		overview:
 			'Worked as a mentor and teaching assistant for a cohort of Grace Hopper students.',
 		details:
-			"Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students in JavaScript and Python. Providing one-on-one support and feedback on individual take-home coding assessments, giving live-coding explanations. Assisting students with workshops and coding problems",
+			"Leading lectures on algorithm solving approaches for 40 students. Acting as a project manager for students' group projects using agile methodology, leading daily standups and ensuring project boards are kept up to date. Conducting interviews with potential students in JavaScript and Python. Providing one-on-one support and feedback on individual take-home coding assessments, giving live coding explanations. Assisting students with workshops and coding problems",
 		logo: GH,
 		job: true,
 	},

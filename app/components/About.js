@@ -52,11 +52,10 @@ const About = () => {
 						software engineer will take me and what I will build along the way.
 					</p>
 					<p>
-						Originally hailing from England, I moved to New York five years ago.
-						When I'm not coding you'll find me riding my bicycle around Prospect
-						Park, at the climbing wall working on my fear of heights and hoping
-						to one day conquer lead climbing, or at home with my cat reading a
-						book.
+						Originally hailing from England, I moved to New York eight years
+						ago. When I'm not coding you'll find me riding my bicycle around
+						Prospect Park or at the climbing wall working on my fear of heights
+						and hoping to one day conquer lead climbing.
 					</p>
 				</div>
 			</div>
